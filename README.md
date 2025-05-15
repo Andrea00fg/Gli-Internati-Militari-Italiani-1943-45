@@ -34,8 +34,8 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="catalogo.html">Storia</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Archivio fotografico/a></li>
+          <li class="nav-item"><a class="nav-link" href=">catalogo.html">Storia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Archivio fotografico</a></li>
           <li class="nav-item"><a class="nav-link" href="#">I luoghi</a></li>
         </ul>
       </div>
@@ -66,7 +66,7 @@
   </main>
 
   <footer class="bg-light text-center py-3">
-    <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45) - Licenza CC BY-SA 4.0</p>
+    <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45) - Licenza CC</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
