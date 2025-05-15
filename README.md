@@ -60,7 +60,7 @@
 
     <section class="mt-4">
       <h2>Contatti e crediti</h2>
-      <p>Progetto sviluppato per la prova finale del corso di Digital Humanities. A cura di [Andrea Perrucci], 2025.</p>
+      <p>Progetto sviluppato per la prova finale del corso di Digital Humanities. A cura di Andrea Perrucci, 2025.</p>
       <p>Fonti principali: Istituto Nazionale Ferruccio Parri, Memoriale IMI, INSMLI, archivi familiari, biblioteche digitali.</p>
     </section>
   </main>
