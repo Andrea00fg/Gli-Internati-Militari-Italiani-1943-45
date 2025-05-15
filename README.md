@@ -1,5 +1,4 @@
 # Gli-Internati-Militari-Italiani-1943-45
-<!DOCTYPE html>
 <html lang="it">
 <head>
   <meta charset="UTF-8">
@@ -7,7 +6,7 @@
   <title>Gli internati militari italiani (1943-45)</title>
 
   <meta name="DC.title" content="Gli internati militari italiani (1943-45)">
-  <meta name="DC.creator" content="[Il tuo nome]">
+  <meta name="DC.creator" content="[Andrea Perrucci]">
   <meta name="DC.subject" content="Internati militari italiani, Seconda guerra mondiale, Lager, prigionia">
   <meta name="DC.description" content="Una raccolta digitale di testimonianze e documenti sugli internati militari italiani nei lager tedeschi, 1943-1945.">
   <meta name="DC.language" content="it">
@@ -19,7 +18,6 @@
   <link rel="stylesheet" href="css/stile.css">
 </head>
 <body>
-  <!-- Header -->
   <header class="bg-dark text-white py-4">
     <div class="container">
       <h1 class="mb-0">Gli internati militari italiani (1943-45)</h1>
@@ -36,10 +34,9 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="catalogo.html">Catalogo</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Per luogo</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Per tema</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Strumenti</a></li>
+          <li class="nav-item"><a class="nav-link" href="catalogo.html">Storia</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Archivio fotografico/a></li>
+          <li class="nav-item"><a class="nav-link" href="#">I luoghi</a></li>
         </ul>
       </div>
     </div>
@@ -63,8 +60,8 @@
 
     <section class="mt-4">
       <h2>Contatti e crediti</h2>
-      <p>Progetto sviluppato per la prova finale del corso di Digital Humanities. A cura di [Il tuo nome], 2025.</p>
-      <p>Fonti principali: Memoriale IMI, INSMLI, archivi familiari, biblioteche digitali.</p>
+      <p>Progetto sviluppato per la prova finale del corso di Digital Humanities. A cura di [Andrea Perrucci], 2025.</p>
+      <p>Fonti principali: Istituto Nazionale Ferruccio Parri, Memoriale IMI, INSMLI, archivi familiari, biblioteche digitali.</p>
     </section>
   </main>
 
