@@ -1,1 +1,80 @@
 # Gli-Internati-Militari-Italiani-1943-45
+!DOCTYPE html
+html lang=it
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleGli internati militari italiani (1943-45)title
+
+    !-- Metadati Dublin Core --
+    meta name=DC.title content=Gli internati militari italiani (1943-45)
+    meta name=DC.creator content=[Il tuo nome o gruppo]
+    meta name=DC.subject content=Internati militari italiani, Seconda guerra mondiale, Prigionia, Lager
+    meta name=DC.description content=Una raccolta digitale dedicata agli internati militari italiani dopo l'8 settembre 1943 testimonianze, documenti, immagini, suoni.
+    meta name=DC.language content=it
+    meta name=DC.date content=2025-05-15
+    meta name=DC.rights content=CC BY-SA 4.0
+
+    !-- Bootstrap CSS (opzionale) --
+    link href=httpscdn.jsdelivr.netnpmbootstrap@5.3.0distcssbootstrap.min.css rel=stylesheet
+
+    !-- CSS personalizzato --
+    link rel=stylesheet href=stile.css
+head
+body
+    header class=bg-dark text-white p-4
+        div class=container
+            h1Gli internati militari italiani (1943-45)h1
+            p class=leadUna raccolta digitale di fonti e testimonianzep
+        div
+    header
+
+    nav class=navbar navbar-expand-lg navbar-light bg-light
+        div class=container
+            a class=navbar-brand href=#IMIa
+            button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbarNav
+                span class=navbar-toggler-iconspan
+            button
+            div class=collapse navbar-collapse id=navbarNav
+                ul class=navbar-nav
+                    li class=nav-itema class=nav-link href=index.htmlHomeali
+                    li class=nav-itema class=nav-link href=catalogo.htmlCatalogoali
+                    li class=nav-itema class=nav-link href=#Per luogoali
+                    li class=nav-itema class=nav-link href=#Per temaali
+                    li class=nav-itema class=nav-link href=#Strumentiali
+                ul
+            div
+        div
+    nav
+
+    main class=container my-5
+        section
+            h2Il progettoh2
+            pQuesta raccolta digitale nasce per documentare e valorizzare le esperienze degli internati militari italiani (IMI) nei lager tedeschi dopo l'armistizio dell'8 settembre 1943. Attraverso documenti, fotografie, lettere, diari e testimonianze orali, il progetto vuole restituire una voce a chi visse questa tragica pagina della storia italiana.p
+        section
+
+        section
+            h2Obiettivih2
+            ul
+                liRaccogliere fonti primarie e secondarie su IMIli
+                liOffrire un'esperienza di consultazione accessibile e navigabileli
+                liIntegrare strumenti digitali per l'analisi e la visualizzazioneli
+                liPromuovere la memoria e la consapevolezza storicali
+            ul
+        section
+
+        section
+            h2Contatti e creditih2
+            pProgetto sviluppato per la prova finale del corso di Digital Humanities. A cura di [Tuo Nome], 2025.p
+            pFonti principali Memoriale IMI, INSMLI, archivi familiari, biblioteche digitali.p
+        section
+    main
+
+    footer class=bg-light text-center p-3
+        p&copy; 2025 Gli internati militari italiani (1943-45) - Licenza CC BY-SA 4.0p
+    footer
+
+    !-- Bootstrap JS (opzionale) --
+    script src=httpscdn.jsdelivr.netnpmbootstrap@5.3.0distjsbootstrap.bundle.min.jsscript
+body
+html
