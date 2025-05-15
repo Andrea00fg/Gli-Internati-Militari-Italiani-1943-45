@@ -66,7 +66,7 @@
   </main>
 
   <footer class="bg-light text-center py-3">
-    <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45) - Licenza CC</p>
+    <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45) - Licenza</p>
   </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
