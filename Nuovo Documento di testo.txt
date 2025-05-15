@@ -1,79 +1,76 @@
-!DOCTYPE html
-html lang=it
-head
-    meta charset=UTF-8
-    meta name=viewport content=width=device-width, initial-scale=1.0
-    titleGli internati militari italiani (1943-45)title
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gli internati militari italiani (1943-45)</title>
 
-    !-- Metadati Dublin Core --
-    meta name=DC.title content=Gli internati militari italiani (1943-45)
-    meta name=DC.creator content=[Il tuo nome o gruppo]
-    meta name=DC.subject content=Internati militari italiani, Seconda guerra mondiale, Prigionia, Lager
-    meta name=DC.description content=Una raccolta digitale dedicata agli internati militari italiani dopo l'8 settembre 1943 testimonianze, documenti, immagini, suoni.
-    meta name=DC.language content=it
-    meta name=DC.date content=2025-05-15
-    meta name=DC.rights content=CC BY-SA 4.0
+  <meta name="DC.title" content="Gli internati militari italiani (1943-45)">
+  <meta name="DC.creator" content="[Il tuo nome]">
+  <meta name="DC.subject" content="Internati militari italiani, Seconda guerra mondiale, Lager, prigionia">
+  <meta name="DC.description" content="Una raccolta digitale di testimonianze e documenti sugli internati militari italiani nei lager tedeschi, 1943-1945.">
+  <meta name="DC.language" content="it">
+  <meta name="DC.date" content="2025-05-15">
+  <meta name="DC.rights" content="CC BY-SA 4.0">
 
-    !-- Bootstrap CSS (opzionale) --
-    link href=httpscdn.jsdelivr.netnpmbootstrap@5.3.0distcssbootstrap.min.css rel=stylesheet
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    !-- CSS personalizzato --
-    link rel=stylesheet href=stile.css
-head
-body
-    header class=bg-dark text-white p-4
-        div class=container
-            h1Gli internati militari italiani (1943-45)h1
-            p class=leadUna raccolta digitale di fonti e testimonianzep
-        div
-    header
+  <link rel="stylesheet" href="css/stile.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="bg-dark text-white py-4">
+    <div class="container">
+      <h1 class="mb-0">Gli internati militari italiani (1943-45)</h1>
+      <p class="lead">Una raccolta digitale di fonti e testimonianze</p>
+    </div>
+  </header>
 
-    nav class=navbar navbar-expand-lg navbar-light bg-light
-        div class=container
-            a class=navbar-brand href=#IMIa
-            button class=navbar-toggler type=button data-bs-toggle=collapse data-bs-target=#navbarNav
-                span class=navbar-toggler-iconspan
-            button
-            div class=collapse navbar-collapse id=navbarNav
-                ul class=navbar-nav
-                    li class=nav-itema class=nav-link href=index.htmlHomeali
-                    li class=nav-itema class=nav-link href=catalogo.htmlCatalogoali
-                    li class=nav-itema class=nav-link href=#Per luogoali
-                    li class=nav-itema class=nav-link href=#Per temaali
-                    li class=nav-itema class=nav-link href=#Strumentiali
-                ul
-            div
-        div
-    nav
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">IMI</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="catalogo.html">Catalogo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Per luogo</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Per tema</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Strumenti</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
-    main class=container my-5
-        section
-            h2Il progettoh2
-            pQuesta raccolta digitale nasce per documentare e valorizzare le esperienze degli internati militari italiani (IMI) nei lager tedeschi dopo l'armistizio dell'8 settembre 1943. Attraverso documenti, fotografie, lettere, diari e testimonianze orali, il progetto vuole restituire una voce a chi visse questa tragica pagina della storia italiana.p
-        section
+  <main class="container my-5">
+    <section>
+      <h2>Il progetto</h2>
+      <p>Questa raccolta digitale nasce per documentare e valorizzare le esperienze degli internati militari italiani (IMI) nei lager tedeschi dopo l'armistizio dell'8 settembre 1943. Attraverso documenti, fotografie, lettere, diari e testimonianze orali, il progetto vuole restituire una voce a chi visse questa tragica pagina della storia italiana.</p>
+    </section>
 
-        section
-            h2Obiettivih2
-            ul
-                liRaccogliere fonti primarie e secondarie su IMIli
-                liOffrire un'esperienza di consultazione accessibile e navigabileli
-                liIntegrare strumenti digitali per l'analisi e la visualizzazioneli
-                liPromuovere la memoria e la consapevolezza storicali
-            ul
-        section
+    <section class="mt-4">
+      <h2>Obiettivi</h2>
+      <ul>
+        <li>Raccogliere fonti primarie e secondarie sugli IMI</li>
+        <li>Offrire un'esperienza di consultazione accessibile e navigabile</li>
+        <li>Integrare strumenti digitali per l'analisi e la visualizzazione</li>
+        <li>Promuovere la memoria e la consapevolezza storica</li>
+      </ul>
+    </section>
 
-        section
-            h2Contatti e creditih2
-            pProgetto sviluppato per la prova finale del corso di Digital Humanities. A cura di [Tuo Nome], 2025.p
-            pFonti principali Memoriale IMI, INSMLI, archivi familiari, biblioteche digitali.p
-        section
-    main
+    <section class="mt-4">
+      <h2>Contatti e crediti</h2>
+      <p>Progetto sviluppato per la prova finale del corso di Digital Humanities. A cura di [Il tuo nome], 2025.</p>
+      <p>Fonti principali: Memoriale IMI, INSMLI, archivi familiari, biblioteche digitali.</p>
+    </section>
+  </main>
 
-    footer class=bg-light text-center p-3
-        p&copy; 2025 Gli internati militari italiani (1943-45) - Licenza CC BY-SA 4.0p
-    footer
+  <footer class="bg-light text-center py-3">
+    <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45) - Licenza CC BY-SA 4.0</p>
+  </footer>
 
-    !-- Bootstrap JS (opzionale) --
-    script src=httpscdn.jsdelivr.netnpmbootstrap@5.3.0distjsbootstrap.bundle.min.jsscript
-body
-html
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
