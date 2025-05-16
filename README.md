@@ -2,7 +2,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gli internati militari italiani (1943-45)</title>
 
   <meta name="DC.title" content="Gli internati militari italiani (1943-45)">
   <meta name="DC.creator" content="[Andrea Perrucci]">
@@ -42,8 +41,8 @@
   </nav>
 
   <figure class="text-center my-4">
-  <img src="img/internati-arrivo.jpg" class="img-fluid rounded shadow" alt="Internati militari italiani diretti al campo di prigionia Stalag III B a Fürstenberg, settembre 1943">
-  <figcaption class="mt-2 text-muted">Internati militari italiani diretti al campo di prigionia Stalag III B a Fürstenberg, settembre 1943 – Foto: Heinrich Voß</figcaption>
+  <img src="img/internati1943.jpg" class="img-fluid rounded shadow" alt="Internati militari italiani diretti ai campi di prigionia nel 1943">
+  <figcaption class="mt-2 text-muted">Internati militari italiani nel 1943 – Fonte: Archivio storico</figcaption>
 </figure>
 
   <main class="container my-5">
