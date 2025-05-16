@@ -1,4 +1,3 @@
-# Gli-Internati-Militari-Italiani-1943-45
 <html lang="it">
 <head>
   <meta charset="UTF-8">
@@ -42,6 +41,11 @@
     </div>
   </nav>
 
+  <figure class="text-center my-4">
+  <img src="img/internati-arrivo.jpg" class="img-fluid rounded shadow" alt="Internati militari italiani diretti al campo di prigionia Stalag III B a Fürstenberg, settembre 1943">
+  <figcaption class="mt-2 text-muted">Internati militari italiani diretti al campo di prigionia Stalag III B a Fürstenberg, settembre 1943 – Foto: Heinrich Voß</figcaption>
+</figure>
+
   <main class="container my-5">
     <section>
       <h2>Il progetto</h2>
@@ -60,8 +64,7 @@
 
     <section class="mt-4">
       <h2>Contatti e crediti</h2>
-      <p>Progetto sviluppato per la prova finale del corso di Digital Humanities. A cura di Andrea Perrucci, 2025.</p>
-      <p>Fonti principali: Istituto Nazionale Ferruccio Parri, Memoriale IMI, INSMLI, archivi familiari, biblioteche digitali.</p>
+      <p>Progetto sviluppato per la prova finale del corso di Digital Humanities e Patrimonio culturale. A cura di Andrea Perrucci, 2025.</p>
     </section>
   </main>
 
