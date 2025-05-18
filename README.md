@@ -58,15 +58,15 @@
       <p>Questa raccolta digitale nasce per documentare e valorizzare le esperienze degli internati militari italiani (IMI) nei lager tedeschi dopo l'armistizio dell'8 settembre 1943. Attraverso documenti, fotografie, lettere, diari e testimonianze orali, il progetto vuole restituire una voce a chi visse questa tragica pagina della storia italiana.</p>
     </section>
 
-    <section class="mt-4">
-      <h2>Obiettivi</h2>
-      <ul class="trattini">
-        <li>Raccogliere fonti primarie e secondarie sugli IMI</li>
-        <li>Offrire un'esperienza di consultazione accessibile e navigabile</li>
-        <li>Integrare strumenti digitali per l'analisi e la visualizzazione</li>
-        <li>Promuovere la memoria e la consapevolezza storica</li>
-      </ul>
-    </section>
+   <section class="mt-4">
+  <h2>Obiettivi</h2>
+  <ul class="list-unstyled">
+    <li>– Raccogliere fonti primarie e secondarie sugli IMI</li>
+    <li>– Offrire un'esperienza di consultazione accessibile e navigabile</li>
+    <li>– Integrare strumenti digitali per l'analisi e la visualizzazione</li>
+    <li>– Promuovere la memoria e la consapevolezza storica</li>
+  </ul>
+</section>
 
     <section class="mt-4">
       <h2>Contatti e crediti</h2>
