@@ -3,7 +3,6 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gli internati militari italiani (1943-45)</title>
 
   <meta name="DC.title" content="Gli internati militari italiani (1943-45)">
   <meta name="DC.creator" content="[Andrea Perrucci]">
@@ -42,33 +41,40 @@
     </div>
   </nav>
 
+ <section class="my-5">
+  <h2>Fotografia storica</h2>
+  <figure class="text-center">
+    <img src="https://www.ns-zwangsarbeit.de/fileadmin/dateien/imi/Transport/10_Sept_43_Ital_Internierte_treffen_im_Lager_ein.jpg"
+         class="img-fluid rounded shadow"
+         alt="Internati militari italiani arrivano al campo di prigionia, 10 settembre 1943">
+    <figcaption class="mt-2 text-muted">
+      Internati militari italiani all'arrivo in un campo di prigionia, 10 settembre 1943. © Dokumentationszentrum NS-Zwangsarbeit
+    </figcaption>
+  </figure>
+</section>
+
   <main class="container my-5">
     <section>
       <h2>Il progetto</h2>
       <p>Questa raccolta digitale nasce per documentare e valorizzare le esperienze degli internati militari italiani (IMI) nei lager tedeschi dopo l'armistizio dell'8 settembre 1943. Attraverso documenti, fotografie, lettere, diari e testimonianze orali, il progetto vuole restituire una voce a chi visse questa tragica pagina della storia italiana.</p>
     </section>
 
-    <section class="mt-4">
-      <h2>Obiettivi</h2>
-      <ul>
-        <li>Raccogliere fonti primarie e secondarie sugli IMI</li>
-        <li>Offrire un'esperienza di consultazione accessibile e navigabile</li>
-        <li>Integrare strumenti digitali per l'analisi e la visualizzazione</li>
-        <li>Promuovere la memoria e la consapevolezza storica</li>
-      </ul>
-    </section>
+   <section class="mt-4">
+  <h2>Obiettivi</h2>
+  <ul class="list-unstyled">
+    <li>– Raccogliere fonti primarie e secondarie sugli IMI</li>
+    <li>– Offrire un'esperienza di consultazione accessibile e navigabile</li>
+    <li>– Integrare strumenti digitali per l'analisi e la visualizzazione</li>
+    <li>– Promuovere la memoria e la consapevolezza storica</li>
+  </ul>
+</section>
 
     <section class="mt-4">
       <h2>Contatti e crediti</h2>
-      <p>Progetto sviluppato per la prova finale del corso di Digital Humanities. A cura di Andrea Perrucci, 2025.</p>
-      <p>Fonti principali: Istituto Nazionale Ferruccio Parri, Memoriale IMI, INSMLI, archivi familiari, biblioteche digitali.</p>
+      <p>Progetto sviluppato per la prova finale del corso di Digital Humanities e Patrimonio culturale. A cura di Andrea Perrucci, 2025.</p>
     </section>
   </main>
 
   <footer class="bg-light text-center py-3">
     <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45) - Licenza</p>
   </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
