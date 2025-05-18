@@ -60,7 +60,7 @@
 
     <section class="mt-4">
       <h2>Obiettivi</h2>
-      <ul>
+      <ul class="trattini">
         <li>Raccogliere fonti primarie e secondarie sugli IMI</li>
         <li>Offrire un'esperienza di consultazione accessibile e navigabile</li>
         <li>Integrare strumenti digitali per l'analisi e la visualizzazione</li>
