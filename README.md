@@ -43,9 +43,11 @@
  <section class="my-5">
   <h2>Fotografia storica</h2>
   <figure class="text-center">
-    <img src="img/immagine-internati.jpg" class="img-fluid rounded shadow" alt="Internati militari italiani in marcia in un campo di prigionia">
+    <img src="https://www.ns-zwangsarbeit.de/fileadmin/dateien/imi/Transport/10_Sept_43_Ital_Internierte_treffen_im_Lager_ein.jpg"
+         class="img-fluid rounded shadow"
+         alt="Internati militari italiani arrivano al campo di prigionia, 10 settembre 1943">
     <figcaption class="mt-2 text-muted">
-      Internati militari italiani in marcia in un campo tedesco, 1943-45.
+      Internati militari italiani all'arrivo in un campo di prigionia, 10 settembre 1943. © Dokumentationszentrum NS-Zwangsarbeit
     </figcaption>
   </figure>
 </section>
