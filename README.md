@@ -40,10 +40,15 @@
     </div>
   </nav>
 
-  <figure class="text-center my-4">
-  <img src="img/internati1943.jpg" class="img-fluid rounded shadow" alt="Internati militari italiani diretti ai campi di prigionia nel 1943">
-  <figcaption class="mt-2 text-muted">Internati militari italiani nel 1943 – Fonte: Archivio storico</figcaption>
-</figure>
+ <section class="my-5">
+  <h2>Fotografia storica</h2>
+  <figure class="text-center">
+    <img src="img/immagine-internati.jpg" class="img-fluid rounded shadow" alt="Internati militari italiani in marcia in un campo di prigionia">
+    <figcaption class="mt-2 text-muted">
+      Internati militari italiani in marcia in un campo tedesco, 1943-45.
+    </figcaption>
+  </figure>
+</section>
 
   <main class="container my-5">
     <section>
