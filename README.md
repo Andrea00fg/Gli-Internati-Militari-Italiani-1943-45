@@ -32,7 +32,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href=">catalogo.html">Storia</a></li>
+          <li class="nav-item"><a class="nav-link" href="storia.html">Storia</a></li>
           <li class="nav-item"><a class="nav-link" href="#">Archivio fotografico</a></li>
           <li class="nav-item"><a class="nav-link" href="#">I luoghi</a></li>
         </ul>
@@ -56,13 +56,6 @@
     <section>
       <h2>Il progetto</h2>
       <p>Questa raccolta digitale nasce per documentare e valorizzare le esperienze degli internati militari italiani (IMI) nei lager tedeschi dopo l'armistizio dell'8 settembre 1943. Attraverso documenti, fotografie, lettere, diari e testimonianze orali, il progetto vuole restituire una voce a chi visse questa tragica pagina della storia italiana.</p>
-    </section>
-
-    <section id="storia" class="mt-5">
-      <h2>Storia degli Internati Militari Italiani</h2>
-      <h3><strong>Il contesto</strong></h3>
-      <h4><strong>L'entrata in guerra dell'Italia fascista</strong></h4>
-      <p>Il 10 giugno 1940 Mussolini annunciò a piazza Venezia, a Roma, l’entrata dell’Italia fascista nella Seconda guerra mondiale al fianco della Germania nazista.</p>
     </section>
 
    <section class="mt-4">
