@@ -78,7 +78,7 @@
     <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45) - Licenza</p>
   </footer>
 
-<section class="my -5"
+<section id=Storia class="my -5"
   <h2>Storia degli Internati Militari Italiani</h2>
   <h2><strong>Il contesto</strong>
   <h2><strong>L'entrata in guerra dell'Italia fascista</strong></h2>
