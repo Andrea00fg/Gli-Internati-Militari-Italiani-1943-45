@@ -58,6 +58,13 @@
       <p>Questa raccolta digitale nasce per documentare e valorizzare le esperienze degli internati militari italiani (IMI) nei lager tedeschi dopo l'armistizio dell'8 settembre 1943. Attraverso documenti, fotografie, lettere, diari e testimonianze orali, il progetto vuole restituire una voce a chi visse questa tragica pagina della storia italiana.</p>
     </section>
 
+    <section id="storia" class="mt-5">
+      <h2>Storia degli Internati Militari Italiani</h2>
+      <h3><strong>Il contesto</strong></h3>
+      <h4><strong>L'entrata in guerra dell'Italia fascista</strong></h4>
+      <p>Il 10 giugno 1940 Mussolini annunciò a piazza Venezia, a Roma, l’entrata dell’Italia fascista nella Seconda guerra mondiale al fianco della Germania nazista.</p>
+    </section>
+
    <section class="mt-4">
   <h2>Obiettivi</h2>
   <ul class="list-unstyled">
@@ -77,10 +84,3 @@
   <footer class="bg-light text-center py-3">
     <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45) - Licenza</p>
   </footer>
-
-<section id=Storia class="my -5">
-  <h2>Storia degli Internati Militari Italiani</h2>
-  <h2><strong>Il contesto</strong>
-  <h2><strong>L'entrata in guerra dell'Italia fascista</strong></h2>
-  <p>Il 10 giugno 1940 Mussolini annunciò a piazza Venezia, a Roma, l’entrata dell’Italia fascista nella Seconda guerra mondiale al fianco della Germania nazista.</p>
-</section>
