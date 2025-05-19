@@ -78,8 +78,9 @@
     <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45) - Licenza</p>
   </footer>
 
-<section id=Storia class="my -5"
+<section id=Storia class="my -5">
   <h2>Storia degli Internati Militari Italiani</h2>
   <h2><strong>Il contesto</strong>
   <h2><strong>L'entrata in guerra dell'Italia fascista</strong></h2>
   <p>Il 10 giugno 1940 Mussolini annunciò a piazza Venezia, a Roma, l’entrata dell’Italia fascista nella Seconda guerra mondiale al fianco della Germania nazista.</p>
+</section>
