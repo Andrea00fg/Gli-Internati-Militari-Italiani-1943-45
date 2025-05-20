@@ -41,7 +41,6 @@
   </nav>
 
  <section class="my-5">
-  <h2>Fotografia storica</h2>
   <figure class="text-center">
     <img src="https://www.ns-zwangsarbeit.de/fileadmin/dateien/imi/Transport/10_Sept_43_Ital_Internierte_treffen_im_Lager_ein.jpg"
          class="img-fluid rounded shadow"
