@@ -29,3 +29,51 @@
       </div>
     </div>
   </nav>
+
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mappa dei Campi di Prigionia</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <style>
+    #map { height: 600px; width: 100%; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+  <header class="bg-dark text-white py-4">
+    <div class="container">
+      <h1 class="mb-0">Mappa dei campi di prigionia</h1>
+    </div>
+  </header>
+
+  <main class="container">
+    <div id="map"></div>
+  </main>
+
+  <footer class="bg-light text-center py-3 mt-4">
+    <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45)</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script>
+    const map = L.map('map').setView([51.5, 10.5], 5); // vista iniziale centrata sulla Germania
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    const luoghi = [
+      { nome: "Fichtenhain", coords: [51.345, 6.521] },
+      { nome: "Kassel", coords: [51.3127, 9.4797] },
+      { nome: "Deblin", coords: [51.5562, 21.8547] },
+      { nome: "Poznan", coords: [52.4064, 16.9252] },
+      { nome: "Hohenstein", coords: [53.7761, 20.9825] }
+    ];
+
+    luoghi.forEach(l => {
+      L.marker(l.coords).addTo(map)
+        .bindPopup(`<strong>${l.nome}</strong>`);
+    });
+  </script>
+</body>
+</html>
