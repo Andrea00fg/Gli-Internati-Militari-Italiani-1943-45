@@ -72,6 +72,7 @@
     currentSlide = (currentSlide + 1) % slides.length;
     slides[currentSlide].classList.add('active');
   }, 5000);
+</script>
 <div id="hero-slider">
   <div class="slide active" style="background-image: url('https://www.ns-zwangsarbeit.de/fileadmin/dateien/imi/Transport/10_Sept_43_Ital_Internierte_treffen_im_Lager_ein.jpg');"></div>
   <div class="slide" style="background-image: url('https://www.ns-zwangsarbeit.de/fileadmin/_processed_/7/7/csm_Zwangsarbeit_der_Soldaten_fuer_den_Krieg_9a0c4af102.jpg');"></div>
