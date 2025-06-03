@@ -15,6 +15,29 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
   <link rel="stylesheet" href="css/stile.css">
+  <style>
+  #hero-slider {
+    position: relative;
+    height: 70vh;
+    overflow: hidden;
+  }
+
+  #hero-slider .slide {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  #hero-slider .slide.active {
+    opacity: 1;
+    z-index: 1;
+  }
+</style>
 </head>
 <body>
   <header class="bg-dark text-white py-4">
@@ -40,16 +63,18 @@
     </div>
   </nav>
 
- <section class="my-5">
-  <figure class="text-center">
-    <img src="https://www.ns-zwangsarbeit.de/fileadmin/dateien/imi/Transport/10_Sept_43_Ital_Internierte_treffen_im_Lager_ein.jpg"
-         class="img-fluid rounded shadow"
-         alt="Internati militari italiani arrivano al campo di prigionia, 10 settembre 1943">
-    <figcaption class="mt-2 text-muted">
-      Internati militari italiani all'arrivo in un campo di prigionia, 10 settembre 1943. © Dokumentationszentrum NS-Zwangsarbeit
-    </figcaption>
-  </figure>
-</section>
+<script>
+  const slides = document.querySelectorAll('#hero-slider .slide');
+  let currentSlide = 0;
+
+  setInterval(() => {
+    slides[currentSlide].classList.remove('active');
+    currentSlide = (currentSlide + 1) % slides.length;
+    slides[currentSlide].classList.add('active');
+  }, 5000);
+<div id="hero-slider">
+  <div class="slide active" style="background-image: url('https://www.ns-zwangsarbeit.de/fileadmin/dateien/imi/Transport/10_Sept_43_Ital_Internierte_treffen_im_Lager_ein.jpg');"></div>
+  <div class="slide" style="background-image: url('https://www.ns-zwangsarbeit.de/fileadmin/_processed_/7/7/csm_Zwangsarbeit_der_Soldaten_fuer_den_Krieg_9a0c4af102.jpg');"></div>
 
   <main class="container my-5">
     <section>
