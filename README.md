@@ -17,6 +17,41 @@
 
   <!-- Slider CSS -->
   <style>
+  body {
+  background-color: #f5f2e7;
+  color: #212529;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+h1, h2, h3, h4 {
+  color: #2c3e50;
+}
+
+a {
+  color: #8b0000;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #5a0000;
+}
+
+.navbar, footer {
+  background-color: #e0e0e0;
+}
+
+.btn-outline-secondary {
+  border-color: #8b0000;
+  color: #8b0000;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #8b0000;
+  color: white;
+}
+    </style>
+
+  <style>
     #hero-slider {
       position: relative;
       height: 70vh;
