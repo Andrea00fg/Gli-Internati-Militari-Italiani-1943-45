@@ -143,7 +143,7 @@ a:active {
     </div>
     <div class="col-md-4 mb-4">
       <a href="Archivio_fotografico.html">
-        <img src="img/immagine3.jpg" class="img-fluid rounded shadow" alt="Cartolina ufficiale">
+        <img src="https://www.analisiqualitativa.com/magma/1601/img/ciccarello02.jpg" class="img-fluid rounded shadow" alt="Cartolina ufficiale">
       </a>
       <p class="mt-2"><strong>Cartolina ufficiale</strong><br>Comunicazione alle famiglie italiane dal comando tedesco.</p>
     </div>
