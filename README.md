@@ -131,7 +131,7 @@ a:active {
   <div class="row text-center">
     <div class="col-md-4 mb-4">
       <a href="Archivio_fotografico.html">
-        <img src="img/immagine1.jpg" class="img-fluid rounded shadow" alt="Lettera da un campo">
+        <img src="https://www.analisiqualitativa.com/magma/1601/img/ciccarello04.jpg" class="img-fluid rounded shadow" alt="Lettera da un campo">
       </a>
       <p class="mt-2"><strong>Lettera da un campo</strong><br>Una testimonianza scritta da un internato nel 1944.</p>
     </div>
