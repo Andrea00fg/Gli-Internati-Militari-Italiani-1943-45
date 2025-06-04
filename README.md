@@ -137,9 +137,9 @@ a:active {
     </div>
     <div class="col-md-4 mb-4">
       <a href="Archivio_fotografico.html">
-        <img src="img/immagine2.jpg" class="img-fluid rounded shadow" alt="Fotografia d'epoca">
+        <img src="https://www.analisiqualitativa.com/magma/1601/img/ciccarello02.jpg" class="img-fluid rounded shadow" alt="Cartolina dal Comando tedesco">
       </a>
-      <p class="mt-2"><strong>Fotografia d'epoca</strong><br>IMI a lavoro.</p>
+      <p class="mt-2"><strong>Cartolina dal Comando tedesco</strong><br>La cartolina spiega ai parenti degli IMI di scrivere sui moduli allegati.</p>
     </div>
     <div class="col-md-4 mb-4">
       <a href="Archivio_fotografico.html">
