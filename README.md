@@ -81,7 +81,7 @@ a:active {
   </style>
 </head>
 <body>
-  <header class="bg-dark text-white py-4">
+ <header class="text-white py-4" style="background-color: #8C7B5B;">
     <div class="container">
       <h1 class="mb-0">Gli internati militari italiani (1943-45)</h1>
       <p class="lead">Una raccolta digitale di fonti e testimonianze</p>
