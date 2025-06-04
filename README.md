@@ -35,10 +35,15 @@ a {
 a:hover {
   color: #5a0000;
 }
+a:visited,
+a:active {
+  color: #000000;
+}
 
 .navbar, footer {
   background-color: #e0e0e0;
 }
+    
 
 .btn-outline-secondary {
   border-color: #8b0000;
