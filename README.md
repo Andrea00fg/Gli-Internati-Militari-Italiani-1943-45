@@ -139,13 +139,13 @@ a:active {
       <a href="Archivio_fotografico.html">
         <img src="img/immagine2.jpg" class="img-fluid rounded shadow" alt="Fotografia d'epoca">
       </a>
-      <p class="mt-2"><strong>Fotografia d'epoca</strong><br>IMI all'arrivo in un campo di lavoro tedesco.</p>
+      <p class="mt-2"><strong>Fotografia d'epoca</strong><br>IMI a lavoro.</p>
     </div>
     <div class="col-md-4 mb-4">
       <a href="Archivio_fotografico.html">
-        <img src="https://www.analisiqualitativa.com/magma/1601/img/ciccarello02.jpg" class="img-fluid rounded shadow" alt="Cartolina ufficiale">
+        <img src="https://www.ns-zwangsarbeit.de/fileadmin/_processed_/0/3/csm_IMI_4_2_3_33_de78c88da6.jpg" class="img-fluid rounded shadow" alt="Imi a lavoro">
       </a>
-      <p class="mt-2"><strong>Cartolina ufficiale</strong><br>Comunicazione alle famiglie italiane dal comando tedesco.</p>
+      <p class="mt-2"><strong>Imi a lavoro</strong><br>Internati militari recuperano le salme dopo il grande bombardamento di Kassel.</p>
     </div>
   </div>
 </section>
