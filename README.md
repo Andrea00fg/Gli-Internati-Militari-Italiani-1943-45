@@ -126,6 +126,31 @@ a:active {
       </ul>
     </section>
 
+    <section class="mt-5">
+  <h2>In primo piano</h2>
+  <div class="row text-center">
+    <div class="col-md-4 mb-4">
+      <a href="Archivio_fotografico.html">
+        <img src="img/immagine1.jpg" class="img-fluid rounded shadow" alt="Lettera da un campo">
+      </a>
+      <p class="mt-2"><strong>Lettera da un campo</strong><br>Una testimonianza scritta da un internato nel 1944.</p>
+    </div>
+    <div class="col-md-4 mb-4">
+      <a href="Archivio_fotografico.html">
+        <img src="img/immagine2.jpg" class="img-fluid rounded shadow" alt="Fotografia d'epoca">
+      </a>
+      <p class="mt-2"><strong>Fotografia d'epoca</strong><br>IMI all'arrivo in un campo di lavoro tedesco.</p>
+    </div>
+    <div class="col-md-4 mb-4">
+      <a href="Archivio_fotografico.html">
+        <img src="img/immagine3.jpg" class="img-fluid rounded shadow" alt="Cartolina ufficiale">
+      </a>
+      <p class="mt-2"><strong>Cartolina ufficiale</strong><br>Comunicazione alle famiglie italiane dal comando tedesco.</p>
+    </div>
+  </div>
+</section>
+
+
     <section class="mt-4">
       <h2>Contatti e crediti</h2>
       <p>Progetto sviluppato per la prova finale del corso di Digital Humanities e Patrimonio culturale. A cura di Andrea Perrucci, 2025.</p>
