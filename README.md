@@ -97,7 +97,15 @@ a:active {
       <ul class="navbar-nav">
         <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
         <li class="nav-item"><a class="nav-link" href="storia.html">Storia</a></li>
-        <li class="nav-item"><a class="nav-link" href="#" onclick="mostraEsplora()">Archivio fotografico</a></li>
+        <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Esplora
+  </a>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="Archivio_fotografico.html">Esplora archivio fotografico</a></li>
+    <li><a class="dropdown-item" href="Archivio_audiovisivo.html">Esplora archivio audiovisivo</a></li>
+  </ul>
+</li>
         <li class="nav-item"><a class="nav-link" href="Luoghi.html">I luoghi</a></li>
       </ul>
     </div>
