@@ -155,6 +155,7 @@ a:active {
       </a>
       <p class="mt-2"><strong>Imi a lavoro</strong><br>Internati militari recuperano le salme dopo il grande bombardamento di Kassel.</p>
     </div>
+  </div>
 </section>
 
     <section class="mt-4">
