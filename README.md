@@ -102,8 +102,8 @@ a:active {
     Esplora
   </a>
   <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="Archivio_fotografico.html">Esplora archivio fotografico</a></li>
-    <li><a class="dropdown-item" href="Archivio_audiovisivo.html">Esplora archivio audiovisivo</a></li>
+    <li><a class="dropdown-item" href="Archivio_fotografico.html">Archivio fotografico</a></li>
+    <li><a class="dropdown-item" href="Archivio_audiovisivo.html">Archivio audiovisivo</a></li>
   </ul>
 </li>
         <li class="nav-item"><a class="nav-link" href="Luoghi.html">I luoghi</a></li>
