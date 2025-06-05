@@ -97,7 +97,7 @@ a:active {
         <ul class="navbar-nav">
           <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="storia.html">Storia</a></li>
-          <li class="nav-item"><a class="nav-link" href="Esplora">Archivio fotografico</a></li>
+          <li class="nav-item"><a class="nav-link" href="Archivio_fotografico.html">Archivio fotografico</a></li>
           <li class="nav-item"><a class="nav-link" href="Luoghi.html">I luoghi</a></li>
         </ul>
       </div>
@@ -124,11 +124,6 @@ a:active {
         <li>– Integrare strumenti digitali per l'analisi e la visualizzazione</li>
         <li>– Promuovere la memoria e la consapevolezza storica</li>
       </ul>
-    </section>
-
-    <section id="esplora" class="mt-5">
-    <h2>Esplora</h2>
-    <a href="Archivio_fotografico.html" class="btn-outline-secondary">Vai all'archivio completo</a>
     </section>
 
     <section class="mt-5">
