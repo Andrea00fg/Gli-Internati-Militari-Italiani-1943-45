@@ -178,7 +178,16 @@ a:active {
     }, 5000);
   </script>
 
-  </!DOCTYPE html>
+  <script>
+  function mostraEsplora() {
+    const sezione = document.getElementById('esplora');
+    if (sezione.style.display === "none") {
+      sezione.style.display = "block";
+      sezione.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+</script>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
