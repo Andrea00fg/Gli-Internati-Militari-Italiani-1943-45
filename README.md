@@ -99,6 +99,7 @@ a:active {
         <li class="nav-item"><a class="nav-link" href="storia.html">Storia</a></li>
         <li class="nav-item"><a class="nav-link" href="#" onclick="mostraEsplora()">Archivio fotografico</a></li>
         <li class="nav-item"><a class="nav-link" href="Luoghi.html">I luoghi</a></li>
+       <li class="nav-item"><a class="nav-link" href="#" onclick="mostraEsplora()">Esplora</a></li>
       </ul>
     </div>
   </div>
@@ -150,6 +151,12 @@ a:active {
   </div>
 </section>
 
+<section id="esplora" class="mt-5" style="display: none;">
+  <h2>Esplora</h2>
+  <p>Scopri immagini, lettere e documenti degli internati militari italiani conservati nel nostro archivio fotografico.</p>
+  <a href="Archivio_fotografico.html" class="btn btn-outline-secondary">Vai all'archivio completo</a>
+</section>
+
     <section class="mt-4">
       <h2>Contatti e crediti</h2>
       <p>Progetto sviluppato per la prova finale del corso di Digital Humanities e Patrimonio culturale. A cura di Andrea Perrucci, 2025.</p>
@@ -171,6 +178,16 @@ a:active {
       slides[currentSlide].classList.add('active');
     }, 5000);
   </script>
+
+  <script>
+  function mostraEsplora() {
+    const sezione = document.getElementById('esplora');
+    if (sezione && sezione.style.display === "none") {
+      sezione.style.display = "block";
+      sezione.scrollIntoView({ behavior: "smooth" });
+    }
+  }
+</script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
