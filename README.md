@@ -151,7 +151,7 @@ a:active {
     </div>
     <div class="col-md-4 mb-4">
       <a href="Archivio_fotografico.html">
-        <img src="https://www.ns-zwangsarbeit.de/fileadmin/_processed_/0/3/csm_IMI_4_2_3_33_de78c88da6.jpg" class="img-fluid rounded shadow" alt="Imi a lavoro">
+        <img src="/fileadmin/_processed_/0/3/csm_IMI_4_2_3_33_b862664432.jpg" class="img-fluid rounded shadow" alt="Imi a lavoro">
       </a>
       <p class="mt-2"><strong>Imi a lavoro</strong><br>Internati militari recuperano le salme dopo il grande bombardamento di Kassel.</p>
     </div>
