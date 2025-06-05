@@ -88,21 +88,21 @@ a:active {
     </div>
   </header>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="storia.html">Storia</a></li>
-          <li class="nav-item"><a class="nav-link" href="Archivio_fotografico.html">Archivio fotografico</a></li>
-          <li class="nav-item"><a class="nav-link" href="Luoghi.html">I luoghi</a></li>
-        </ul>
-      </div>
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="storia.html">Storia</a></li>
+        <li class="nav-item"><a class="nav-link" href="#" onclick="mostraEsplora()">Archivio fotografico</a></li>
+        <li class="nav-item"><a class="nav-link" href="Luoghi.html">I luoghi</a></li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav>
 
   <!-- Slider tipo "sito-da-riprodurre" -->
   <div id="hero-slider">
@@ -148,6 +148,11 @@ a:active {
       <p class="mt-2"><strong>Imi a lavoro</strong><br>Internati militari recuperano le salme dopo il grande bombardamento di Kassel.</p>
     </div>
   </div>
+</section>
+
+<section id="esplora" class="mt-5" style="display: none;">
+  <h2>Esplora</h2>
+  <a href="Archivio_fotografico.html" class="btn btn-outline-secondary">Vai all'archivio completo</a>
 </section>
 
 
