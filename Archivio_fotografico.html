@@ -11,61 +11,61 @@
       background-color: #f5f2e7;
       font-family: 'Segoe UI', sans-serif;
     }
-    .foto-item {
-      background: white;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      overflow: hidden;
-      margin-bottom: 2rem;
-      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    .foto-riga {
+      border-bottom: 1px solid #ccc;
+      padding: 2rem 0;
     }
-    .foto-item img {
-      width: 100%;
-      height: auto;
-      display: block;
+    .foto-riga:last-child {
+      border-bottom: none;
     }
-    .foto-info {
-      padding: 1rem;
+    .foto-riga img {
+      max-width: 100%;
+      border-radius: 6px;
     }
-    .foto-info h5 {
-      margin: 0 0 0.5rem;
-      font-weight: bold;
+    .metadati h5 {
       color: #8b0000;
+      font-weight: bold;
     }
-    .foto-info p {
-      margin: 0;
-      font-size: 0.9rem;
+    .metadati p {
+      margin-bottom: 0.3rem;
     }
   </style>
 </head>
 <body>
+  <div class="container py-5">
+    <h1 class="mb-4">Archivio fotografico</h1>
 
-<div class="container py-5">
-  <h1 class="mb-4">Archivio fotografico</h1>
-
-  <!-- Foto 1 -->
-  <div class="foto-item">
-    <img src="https://www.analisiqualitativa.com/magma/1601/img/ciccarello02.jpg" alt="Cartolina tedesca">
-    <div class="foto-info">
-      <h5>Cartolina del Comando tedesco</h5>
-      <p><strong>Data:</strong> 19/04/1944</p>
-      <p><strong>Luogo:</strong> Germania, Stalag VI J</p>
-      <p>La cartolina, proveniente dal Comando tedesco, invita i familiari degli IMI a scrivere utilizzando i moduli allegati.</p>
+    <!-- ITEM 1 -->
+    <div class="row foto-riga align-items-center">
+      <div class="col-md-4">
+        <img src="https://www.analisiqualitativa.com/magma/1601/img/ciccarello02.jpg" alt="Cartolina tedesca">
+      </div>
+      <div class="col-md-8 metadati">
+        <h5>Cartolina dal Comando tedesco</h5>
+        <p><strong>Data:</strong> 19 aprile 1944</p>
+        <p><strong>Luogo:</strong> Germania, Stalag VI J</p>
+        <p><strong>Fonte:</strong> Memorie private</p>
+        <p><strong>Descrizione:</strong> La cartolina, proveniente dal Comando tedesco, illustra ai parenti degli IMI di scrivere sui moduli allegati.</p>
+      </div>
     </div>
+
+    <!-- ITEM 2 -->
+    <div class="row foto-riga align-items-center">
+      <div class="col-md-4">
+        <img src="https://www.ns-zwangsarbeit.de/fileadmin/dateien/imi/Transport/10_Sept_43_Ital_Internierte_treffen_im_Lager_ein.jpg" alt="Arrivo al campo">
+      </div>
+      <div class="col-md-8 metadati">
+        <h5>Arrivo degli IMI al campo</h5>
+        <p><strong>Data:</strong> 10 settembre 1943</p>
+        <p><strong>Luogo:</strong> Germania</p>
+        <p><strong>Fonte:</strong> Dokumentationszentrum NS-Zwangsarbeit</p>
+        <p><strong>Descrizione:</strong> Internati militari italiani all'arrivo in un campo di prigionia.</p>
+      </div>
+    </div>
+
+    <!-- Aggiungi altri item qui seguendo lo stesso schema -->
   </div>
 
-  <!-- Foto 2 -->
-  <div class="foto-item">
-    <img src="https://www.ns-zwangsarbeit.de/fileadmin/dateien/imi/Transport/10_Sept_43_Ital_Internierte_treffen_im_Lager_ein.jpg" alt="Arrivo al campo">
-    <div class="foto-info">
-      <h5>Arrivo degli IMI al campo</h5>
-      <p><strong>Data:</strong> 10/09/1943</p>
-      <p><strong>Luogo:</strong> Germania</p>
-      <p>Internati militari italiani al momento dell'arrivo in un campo di prigionia tedesco.</p>
-    </div>
-  </div>
-</div>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
