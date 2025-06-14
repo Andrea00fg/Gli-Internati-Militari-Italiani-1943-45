@@ -2,169 +2,70 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8">
+  <title>Archivio fotografico</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Storia - Internati Militari Italiani</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/stile.css">
-     <!-- Slider CSS -->
-  <style>
-  body {
-  background-color: #f5f2e7;
-  color: #212529;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-h1, h2, h3, h4 {
-  color: #2c3e50;
-}
-
-a {
-  color: #8b0000;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #5a0000;
-}
-a:visited,
-a:active {
-  color: #000000;
-}
-
-.navbar, footer {
-  background-color: #e0e0e0;
-}
-
-.btn-outline-secondary {
-  border-color: #8b0000;
-  color: #8b0000;
-}
-
-.btn-outline-secondary:hover {
-  background-color: #8b0000;
-  color: white;
-}
-    </style>
 
   <style>
-    #hero-slider {
-      position: relative;
-      height: 70vh;
+    body {
+      background-color: #f5f2e7;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .foto-item {
+      background: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
       overflow: hidden;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     }
-
-    #hero-slider .slide {
-      position: absolute;
-      top: 0; left: 0;
+    .foto-item img {
       width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-position: center;
-      opacity: 0;
-      transition: opacity 1s ease-in-out;
+      height: auto;
+      display: block;
     }
-
-    #hero-slider .slide.active {
-      opacity: 1;
-      z-index: 1;
+    .foto-info {
+      padding: 1rem;
+    }
+    .foto-info h5 {
+      margin: 0 0 0.5rem;
+      font-weight: bold;
+      color: #8b0000;
+    }
+    .foto-info p {
+      margin: 0;
+      font-size: 0.9rem;
     }
   </style>
 </head>
 <body>
-   <header class="text-white py-4" style="background-color: #8C7B5B;">
-    <div class="container">
-      <h1 class="mb-0">Gli Internati Militari Italiani (1943-45)</h1>
+
+<div class="container py-5">
+  <h1 class="mb-4">Archivio fotografico</h1>
+
+  <!-- Foto 1 -->
+  <div class="foto-item">
+    <img src="https://www.analisiqualitativa.com/magma/1601/img/ciccarello02.jpg" alt="Cartolina tedesca">
+    <div class="foto-info">
+      <h5>Cartolina del Comando tedesco</h5>
+      <p><strong>Data:</strong> 19/04/1944</p>
+      <p><strong>Luogo:</strong> Germania, Stalag VI J</p>
+      <p>La cartolina, proveniente dal Comando tedesco, invita i familiari degli IMI a scrivere utilizzando i moduli allegati.</p>
     </div>
-  </header>
+  </div>
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-          <li class="nav-item"><a class="nav-link" href="storia.html">Storia</a></li>
-          <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="esploraDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Esplora
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="esploraDropdown">
-    <li><a class="dropdown-item" href="Archivio_fotografico.html">Archivio fotografico</a></li>
-    <li><a class="dropdown-item" href="Archivio_audiovisivo.html">Archivio audiovisivo</a></li>
-  </ul>
-</li>
-          <li class="nav-item"><a class="nav-link" href="Luoghi.html">I luoghi</a></li>
-        </ul>
-      </div>
+  <!-- Foto 2 -->
+  <div class="foto-item">
+    <img src="https://www.ns-zwangsarbeit.de/fileadmin/dateien/imi/Transport/10_Sept_43_Ital_Internierte_treffen_im_Lager_ein.jpg" alt="Arrivo al campo">
+    <div class="foto-info">
+      <h5>Arrivo degli IMI al campo</h5>
+      <p><strong>Data:</strong> 10/09/1943</p>
+      <p><strong>Luogo:</strong> Germania</p>
+      <p>Internati militari italiani al momento dell'arrivo in un campo di prigionia tedesco.</p>
     </div>
-  </nav>
+  </div>
+</div>
 
-  <main class="container my-5">
-    <div class="row">
-      <div class="col-md-8">
-        <img src="https://www.analisiqualitativa.com/magma/1601/img/ciccarello02.jpg" width="600" height="326" alt="Cartolina dal Comando tedesco">
-      </div>
-      <div class="col-md-4 text-end">
-        <h2>Cartolina proveniente dal Comando tedesco</h2>
-        <p><strong>Data:</strong> 24 aprile 1944</p>
-        <p><strong>Luogo:</strong> Germania, Stalag VI J</p>
-        <p><strong>Fonte:</strong> <a href="https://www.analisiqualitativa.com/magma/1601/articolo_05.htm">analisiqualitativa.com</a></p>
-        <p><strong>Descrizione:</strong> La cartolina, proveniente dal Comando tedesco, spiega ai parenti degli IMI di scrivere sui moduli allegati.</p>
-      </div>
-    </div>
-  </main>
-
-  <main class="container my-5">
-    <div class="row">
-      <div class="col-md-8">
-        <img src="https://www.analisiqualitativa.com/magma/1601/img/ciccarello04.jpg" width="600" height="412" alt="Lettera di un IMI">
-      </div>
-      <div class="col-md-4 text-end">
-        <h2>Lettera proveniente da un IMI</h2>
-        <p><strong>Data:</strong> 27 dicembre 1943</p>
-        <p><strong>Luogo:</strong> Germania, Stamlager VII A</p>
-        <p><strong>Fonte:</strong> <a href="https://www.analisiqualitativa.com/magma/1601/articolo_05.htm">analisiqualitativa.com</a></p>
-        <p><strong>Descrizione:</strong> Un IMI attraverso la lettera saluta la propria famiglia.</p>
-      </div>
-    </div>
-  </main>
-
-  <main class="container my-5">
-    <div class="row">
-      <div class="col-md-8">
-        <img src="https://www.ns-zwangsarbeit.de/fileadmin/_processed_/0/3/csm_IMI_4_2_3_33_de78c88da6.jpg" width="600" height="412" alt="">
-      </div>
-      <div class="col-md-4 text-end">
-        <h2> Gli Imi recuperano le salme dopo il grande bombardamento di Kassel</h2>
-        <p><strong>Data:</strong> 22 ottobre 1943</p>
-        <p><strong>Luogo:</strong> Germania, Kassel</p>
-        <p><strong>Fonte:</strong> https://www.ns-zwangsarbeit.de/it/internati-militari-italiani/temi/il-lavoro-coatto-dei-soldati-per-la-guerra/</p>
-        <p><strong>Descrizione:</strong> Internati militari recuperano le salme dopo il grande bombardamento di Kassel, 22 ottobre 1943.</p>
-      </div>
-    </div>
-  </main>
-
-  <main class="container my-5">
-    <div class="row">
-      <div class="col-md-8">
-        <img src="https://www.ns-zwangsarbeit.de/fileadmin/dateien/imi/Befreiung_und_Heimkehr/IMI_6_27_angepasst.jpg" width="600" height="412" alt="">
-      </div>
-      <div class="col-md-4 text-end">
-        <h2>I reduci sono in fila per la registrazione</h2>
-        <p><strong>Data:</strong> 1945</p>
-        <p><strong>Luogo:</strong> Italia, Biella, Vercelli e Valsesia</p>
-        <p><strong>Fonte:</strong> https://www.ns-zwangsarbeit.de/it/internati-militari-italiani/temi/liberazione-e-rimpatrio/</p>
-        <p><strong>Descrizione:</strong> Reduci carichi dei loro bagagli in fila per la registrazione, 1945.</p>
-      </div>
-    </div>
-  </main>
-
-  <section class="container mt-4 text-center">
-    <a href="index.html" class="btn btn-outline-secondary">Torna alla Home</a>
-  </section>
-
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
