@@ -115,7 +115,7 @@ a:active {
  
   <div id="hero-slider">
     <div class="slide active" style="background-image: url('https://www.ns-zwangsarbeit.de/fileadmin/dateien/imi/Transport/10_Sept_43_Ital_Internierte_treffen_im_Lager_ein.jpg');"></div>
-    <div class="slide" style="background-image: url('https://www.ns-zwangsarbeit.de/fileadmin/_processed_/0/3/csm_IMI_4_2_3_33_b862664432.jpg');"></div>
+    <div class="slide" style="background-image: url('https://www.ns-zwangsarbeit.de/fileadmin/_processed_/6/3/csm_IMI_2B_7_4e2d248642.png');"></div>
   </div>
 
   <main class="container my-5">
