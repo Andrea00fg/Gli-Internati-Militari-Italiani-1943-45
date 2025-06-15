@@ -3,117 +3,122 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Luoghi-Internati Militari Italiani</title>
+  <title>Luoghi - Internati Militari Italiani</title>
+
+  <!-- Bootstrap e Leaflet CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/stile.css">
-  <style>
-  body {
-  background-color: #f5f2e7;
-  color: #212529;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-h1, h2, h3, h4 {
-  color: #2c3e50;
-}
-
-a {
-  color: #8b0000;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #5a0000;
-}
-
-.navbar, footer {
-  background-color: #e0e0e0;
-}
-
-.btn-outline-secondary {
-  border-color: #8b0000;
-  color: #8b0000;
-}
-
-.btn-outline-secondary:hover {
-  background-color: #8b0000;
-  color: white;
-}
-    </style>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
 
   <style>
-    #hero-slider {
-      position: relative;
-      height: 70vh;
-      overflow: hidden;
+    body {
+      background-color: #f5f2e7;
+      color: #212529;
+      font-family: 'Segoe UI', sans-serif;
     }
 
-    #hero-slider .slide {
-      position: absolute;
-      top: 0; left: 0;
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    a {
+      color: #8b0000;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #5a0000;
+    }
+
+    .navbar, footer {
+      background-color: #e0e0e0;
+    }
+
+    .btn-outline-secondary {
+      border-color: #8b0000;
+      color: #8b0000;
+    }
+
+    .btn-outline-secondary:hover {
+      background-color: #8b0000;
+      color: white;
+    }
+
+    #map {
+      height: 600px;
       width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-position: center;
-      opacity: 0;
-      transition: opacity 1s ease-in-out;
+      margin-top: 2rem;
     }
 
-    #hero-slider .slide.active {
-      opacity: 1;
-      z-index: 1;
+    .legend {
+      background: white;
+      padding: 10px;
+      line-height: 1.5;
+      font-size: 14px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
     }
   </style>
 </head>
 <body>
-   <header class="text-white py-4" style="background-color: #8C7B5B;">
+
+  <!-- Header -->
+  <header class="text-white py-4" style="background-color: #8C7B5B;">
     <div class="container">
       <h1 class="mb-0">Gli Internati Militari Italiani (1943-45)</h1>
     </div>
   </header>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="storia.html">Storia</a></li>
-           <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="esploraDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Esplora
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="esploraDropdown">
-    <li><a class="dropdown-item" href="Archivio_fotografico.html">Archivio fotografico</a></li>
-    <li><a class="dropdown-item" href="Archivio_audiovisivo.html">Archivio audiovisivo</a></li>
-  </ul>
-</li>
-          <li class="nav-item"><a class="nav-link" href="Luoghi.html">I luoghi</a></li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="esploraDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Esplora</a>
+            <ul class="dropdown-menu" aria-labelledby="esploraDropdown">
+              <li><a class="dropdown-item" href="Archivio_fotografico.html">Archivio fotografico</a></li>
+              <li><a class="dropdown-item" href="Archivio_audiovisivo.html">Archivio audiovisivo</a></li>
+            </ul>
+          </li>
+          <li class="nav-item"><a class="nav-link active" href="Luoghi.html">I luoghi</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-    #map { height: 600px; width: 100%; margin-top: 2rem; }
-  </style>
-</head>
-<body>
-  <header class="text-white py-4" style="background-color: #8C7B5B;">
+  <!-- Titolo pagina -->
+  <header class="bg-light py-4">
     <div class="container">
-      <h1 class="mb-0">Mappa dei campi di prigionia</h1>
+      <h2 class="mb-0">Mappa dei campi di prigionia</h2>
     </div>
   </header>
 
+  <!-- Mappa -->
   <main class="container">
     <div id="map"></div>
+
+    <section class="mt-4 mb-5">
+      <a href="index.html" class="btn btn-outline-secondary">Torna alla Home</a>
+    </section>
   </main>
 
+  <!-- Footer -->
+  <footer class="bg-light text-center py-3">
+    <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45) - Licenza</p>
+  </footer>
 
+  <!-- Script Leaflet + Bootstrap -->
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Script mappa -->
   <script>
-    const map = L.map('map').setView([51.5, 10.5], 5); // vista iniziale centrata sulla Germania
+    const map = L.map('map').setView([51.5, 10.5], 5);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: 'Map data © <a href="https://openstreetmap.org">OpenStreetMap</a> contributors'
@@ -125,26 +130,25 @@ a:hover {
       { nome: "Deblin", coords: [51.5562, 21.8547] },
       { nome: "Poznan", coords: [52.4064, 16.9252] },
       { nome: "Hohenstein", coords: [53.7761, 20.9825] },
-      { nome: "Dora - Nordhausen KZ", coords: [51.5025, 10.7764] }
-close
-
+      { nome: "Dora - Nordhausen", coords: [51.5025, 10.7764] }
     ];
 
     luoghi.forEach(l => {
       L.marker(l.coords).addTo(map)
         .bindPopup(`<strong>${l.nome}</strong>`);
     });
+
+    const legenda = L.control({ position: 'bottomright' });
+
+    legenda.onAdd = function (map) {
+      const div = L.DomUtil.create('div', 'legend');
+      div.innerHTML += "<strong>Legenda</strong><br>";
+      div.innerHTML += "• Campi di prigionia segnalati<br>";
+      div.innerHTML += "• Tutti i marker indicano luoghi di internamento IMI";
+      return div;
+    };
+
+    legenda.addTo(map);
   </script>
-
-   <section class="mt-4">
-      <a href="index.html" class="btn btn-outline-secondary">Torna alla Home</a>
-    </section>
-  </main>
-
-  <footer class="bg-light text-center py-3">
-    <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45) - Licenza</p>
-  </footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
