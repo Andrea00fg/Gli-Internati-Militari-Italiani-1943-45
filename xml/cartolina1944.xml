@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="stile.xsl"?>
-<?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0"
-  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-  xmlns:dc="http://purl.org/dc/elements/1.1/">
-
-  <xsl:output method="html" encoding="UTF-8"/>
-
-  <xsl:template match="/">
-    <html>
-      <head><title>Metadati DC</title></head>
-      <body>
-        <h1><xsl:value-of select="metadata/dc:title"/></h1>
-        <p><strong>Autore:</strong> <xsl:value-of select="metadata/dc:creator"/></p>
-        <p><strong>Data:</strong> <xsl:value-of select="metadata/dc:date"/></p>
-        <p><strong>Luogo:</strong> <xsl:value-of select="metadata/dc:coverage"/></p>
-        <p><strong>Descrizione:</strong> <xsl:value-of select="metadata/dc:description"/></p>
-        <p><strong>Fonte:</strong> <xsl:value-of select="metadata/dc:source"/></p>
-      </body>
-    </html>
-  </xsl:template>
-</xsl:stylesheet>
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <dc:title>Cartolina dal Comando tedesco</dc:title>
+  <dc:creator>Anonimo</dc:creator>
+  <dc:date>1944-04-19</dc:date>
+  <dc:description>Cartolina che invita i familiari degli IMI a scrivere solo sui moduli allegati.</dc:description>
+  <dc:subject>Internati Militari Italiani</dc:subject>
+  <dc:coverage>Germania, Stalag VI J</dc:coverage>
+  <dc:source>Memorie private</dc:source>
+  <dc:language>it</dc:language>
+</metadata>
