@@ -172,25 +172,25 @@
 </div>
     
 <script>
-  function ordinaCards() {
-    const container = document.getElementById("contenitore-cards");
-    const cards = Array.from(container.getElementsByClassName("card"));
-    const ordine = document.getElementById("ordinamento").value;
+  document.addEventListener('DOMContentLoaded', function () {
+      const btn = document.getElementById('ordinaBtn');
+      btn.addEventListener('click', function () {
+        const container = document.getElementById('contenitore-cards');
+        const cards = Array.from(container.getElementsByClassName('card'));
+        const ordine = document.getElementById('ordinamento').value;
 
-    cards.sort((a, b) => {
-      const annoA = parseInt(a.getAttribute("data-anno"));
-      const annoB = parseInt(b.getAttribute("data-anno"));
-      return ordine === "asc" ? annoA - annoB : annoB - annoA;
+        cards.sort((a,b) => {
+          const annoA = parseInt(a.getAttribute('data-anno')) || 0;
+          const annoB = parseInt(b.getAttribute('data-anno')) || 0;
+          return ordine === 'asc' ? annoA - annoB : annoB - annoA;
+        });
+
+        // riappende nell'ordine scelto
+        cards.forEach(c => container.appendChild(c));
+      });
     });
+  </script>
 
-    cards.forEach(card => container.appendChild(card));
-  }
-</script>
-
-    <footer class="bg-light text-center py-3">
-    <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45) - Licenza</p>
-  </footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
