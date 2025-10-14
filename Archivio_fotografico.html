@@ -72,7 +72,6 @@
   
 <div class="container mt-5">
   <div class="row">
-    <!-- Sidebar filtro -->
     <div class="col-md-3">
       <div class="sidebar">
         <h5>Ordina per</h5>
@@ -84,37 +83,8 @@
       </div>
     </div>
 
-    <!-- Sezione card -->
+    
     <div class="col-md-9" id="contenitore-cards">
-
-      <!-- Tutte le tue card qui dentro (lascia invariato il contenuto delle card) -->
-
-    </div>
-  </div>
-</div>
-
-<script>
-document.addEventListener("DOMContentLoaded", function() {
-  const select = document.getElementById("ordinamento");
-  const button = document.getElementById("ordinaBtn");
-
-  button.addEventListener("click", function() {
-    const container = document.getElementById("contenitore-cards");
-    const cards = Array.from(container.getElementsByClassName("card"));
-    const ordine = select.value;
-
-    cards.sort((a, b) => {
-      const annoA = parseInt(a.getAttribute("data-anno"));
-      const annoB = parseInt(b.getAttribute("data-anno"));
-      return ordine === "asc" ? annoA - annoB : annoB - annoA;
-    });
-
-    // Riordina le card nel DOM
-    cards.forEach(card => container.appendChild(card));
-  });
-});
-</script>
-
 
       <div class="card" data-anno="1943">
         <img src="https://tantebracciaperilreich.eu/wp-content/uploads/2021/10/foto-b3-scaled-e1635343175353.jpg">
