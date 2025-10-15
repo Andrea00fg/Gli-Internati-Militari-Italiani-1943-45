@@ -61,3 +61,36 @@ a:active {
       z-index: 1;
     }
   </style>
+
+
+ <style>
+    body {
+      background-color: #f5f2e7;
+      font-family: 'Segoe UI', sans-serif;
+    }
+    .card {
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 2rem;
+    }
+    .card img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .sidebar {
+      background: #e0e0e0;
+      padding: 1rem;
+      border-radius: 10px;
+      margin-bottom: 2rem;
+    }
+    .btn-custom {
+      border-color: #8b0000;
+      color: #8b0000;
+    }
+    .btn-custom:hover {
+      background-color: #8b0000;
+      color: #fff;
+    }
+  </style>
