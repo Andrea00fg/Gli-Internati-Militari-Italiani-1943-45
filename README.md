@@ -134,8 +134,6 @@ a:active {
       </ul>
     </section>
 
-    <section class="mt-5">
-  <h2>In primo piano</h2>
  <section class="container my-5">
   <h2 class="text-center mb-4">📖 Esplora il sito</h2>
   <div class="row g-4">
