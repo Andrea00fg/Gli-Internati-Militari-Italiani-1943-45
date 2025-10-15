@@ -13,7 +13,7 @@
       <h1 class="mb-0">Gli Internati Militari Italiani (1943-45)</h1>
     </div>
   </header>
-  
+
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -24,9 +24,7 @@
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="storia.html">Storia</a></li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="esploraDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Esplora
-            </a>
+            <a class="nav-link dropdown-toggle" href="#" id="esploraDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Esplora</a>
             <ul class="dropdown-menu" aria-labelledby="esploraDropdown">
               <li><a class="dropdown-item" href="Archivio_fotografico.html">Archivio fotografico</a></li>
               <li><a class="dropdown-item" href="#">Archivio audiovisivo</a></li>
@@ -38,37 +36,178 @@
     </div>
   </nav>
 
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-3">
-        <div class="sidebar">
-          <h5>Ordina per</h5>
-          <select class="form-select" id="ordinamento">
-            <option value="asc">Data (1943 → 1945)</option>
-            <option value="desc">Data (1945 → 1943)</option>
-            <option value="Cartoline">Cartoline</option>
-            <option value="Lettere">Lettere</option>
-            <option value="Fotografie">Fotografie</option>
-          </select>
-          <button class="btn btn-custom mt-3 w-100" id="ordinaBtn">Applica</button>
+  <div class="container my-4">
+    <div class="d-flex mb-3">
+      <select class="form-select me-2" id="ordinamento">
+        <option value="asc">Data (1943 → 1945)</option>
+        <option value="desc">Data (1945 → 1943)</option>
+        <option value="cartoline">Cartoline</option>
+        <option value="lettere">Lettere</option>
+        <option value="fotografie">Fotografie</option>
+      </select>
+      <button id="ordinaBtn" class="btn btn-primary">Applica</button>
+    </div>
+
+    <div class="row" id="contenitore-cards">
+      <!-- CARD 1 -->
+      <div class="card col-md-4 mb-4" data-anno="1943" data-type="Fotografie">
+        <img src="https://tantebracciaperilreich.eu/wp-content/uploads/2021/10/foto-b3-scaled-e1635343175353.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Disarmo delle truppe italiane</h5>
+          <p class="card-text"><strong>Data:</strong> 8 settembre 1943<br>
+            <strong>Luogo:</strong> Sconosciuto<br>
+            <strong>Fonte:</strong> Tante braccia per il Reich<br>
+            <strong>Descrizione:</strong> Momenti del disarmo di truppe italiane</p>
         </div>
       </div>
 
-      <div class="col-md-9" id="contenitore-cards">
-        <!-- Card 1943 -->
-        <div class="card" data-anno="1943" data-type="Fotografie">
-          <img src="https://tantebracciaperilreich.eu/wp-content/uploads/2021/10/foto-b3-scaled-e1635343175353.jpg" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">Disarmo delle truppe italiane</h5>
-            <p class="card-text"><strong>Data:</strong> 8 settembre 1943<br>
-              <strong>Luogo:</strong> Sconosciuto<br>
-              <strong>Fonte:</strong> Tante braccia per il Reich<br>
-              <strong>Descrizione:</strong> Momenti del disarmo di truppe italiane l'8 settembre 1943</p>
-          </div>
+      <!-- CARD 2 -->
+      <div class="card col-md-4 mb-4" data-anno="1943" data-type="Cartoline">
+        <img src="https://tantebracciaperilreich.eu/wp-content/uploads/2021/10/foto-22.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Cartolina postale inviata dall'IMI Giovanni Duina</h5>
+          <p class="card-text"><strong>Data:</strong> 26 novembre 1943<br>
+            <strong>Luogo:</strong> Sconosciuto<br>
+            <strong>Fonte:</strong> Tante braccia per il Reich<br>
+            <strong>Descrizione:</strong> Cartolina inviata alla famiglia</p>
         </div>
+      </div>
 
-        <div class="card" data-anno="1943" data-type="Cartoline">
-          <img src="https://tantebracciaperilreich.eu/wp-content/uploads/2021/10/foto-22.jpg" class="card-img-top">
-          <div class="card-body">
-            <h5 class="card-title">Cartolina postale inviata dall'IMI Giovanni Duina</h5>
-            <p class="card-text"><strong>Data:</strong> 26 novembre 1943<br>
+      <!-- CARD 3 -->
+      <div class="card col-md-4 mb-4" data-anno="1943" data-type="Fotografie">
+        <img src="https://www.schiavidihitler.it/immagini/archivio/006.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Disegno di un internato militare</h5>
+          <p class="card-text"><strong>Data:</strong> 1943<br>
+            <strong>Luogo:</strong> Campo di Hammerstein<br>
+            <strong>Fonte:</strong> schiavidiHitler.it<br>
+            <strong>Descrizione:</strong> Disegno durante la prigionia</p>
+        </div>
+      </div>
+
+      <!-- CARD 4 -->
+      <div class="card col-md-4 mb-4" data-anno="1943" data-type="Fotografie">
+        <img src="https://www.ns-zwangsarbeit.de/fileadmin/_processed_/0/3/csm_IMI_4_2_3_33_b862664432.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">IMI al lavoro dopo il bombardamento</h5>
+          <p class="card-text"><strong>Data:</strong> 1943<br>
+            <strong>Luogo:</strong> Kassel, Germania<br>
+            <strong>Fonte:</strong> Ns Zwanggsarbeit Dokumentationszentrum<br>
+            <strong>Descrizione:</strong> Recupero delle salme dopo il bombardamento</p>
+        </div>
+      </div>
+
+      <!-- CARD 5 -->
+      <div class="card col-md-4 mb-4" data-anno="1944" data-type="Lettere">
+        <img src="https://www.analisiqualitativa.com/magma/1601/img/ciccarello04.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Lettera da un campo</h5>
+          <p class="card-text"><strong>Data:</strong> 1944<br>
+            <strong>Luogo:</strong> Campo di prigionia non identificato<br>
+            <strong>Fonte:</strong> Memorie private<br>
+            <strong>Descrizione:</strong> Testimonianza scritta da un internato</p>
+        </div>
+      </div>
+
+      <!-- CARD 6 -->
+      <div class="card col-md-4 mb-4" data-anno="1944" data-type="Cartoline">
+        <img src="https://www.analisiqualitativa.com/magma/1601/img/ciccarello02.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Cartolina dal Comando tedesco</h5>
+          <p class="card-text"><strong>Data:</strong> 19 aprile 1944<br>
+            <strong>Luogo:</strong> Germania, Stalag VI J<br>
+            <strong>Fonte:</strong> Memorie private<br>
+            <strong>Descrizione:</strong> Modulo da utilizzare per la corrispondenza</p>
+        </div>
+      </div>
+
+      <!-- CARD 7 -->
+      <div class="card col-md-4 mb-4" data-anno="1945" data-type="Fotografie">
+        <img src="https://www.ns-zwangsarbeit.de/fileadmin/dateien/imi/Statuswechsel/IMI_5_2_10_angepasst.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Lavoratori coatti nel centro di Hildesheim</h5>
+          <p class="card-text"><strong>Data:</strong> 1945<br>
+            <strong>Luogo:</strong> Hildesheim<br>
+            <strong>Fonte:</strong> Ns Zwanggsarbeit Dokumentationszentrum<br>
+            <strong>Descrizione:</strong> Lavoratori coatti dopo i bombardamenti</p>
+        </div>
+      </div>
+
+      <!-- CARD 8 -->
+      <div class="card col-md-4 mb-4" data-anno="1945" data-type="Fotografie">
+        <img src="https://www.ns-zwangsarbeit.de/fileadmin//dateien/imi/Befreiung_und_Heimkehr/IMI_6_28.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Registrazione dei reduci</h5>
+          <p class="card-text"><strong>Data:</strong> 1945<br>
+            <strong>Luogo:</strong> Biellese, Vercellese e Valsesia<br>
+            <strong>Fonte:</strong> Ns Zwanggsarbeit Dokumentationszentrum<br>
+            <strong>Descrizione:</strong> Registrazione dei reduci da parte di volontari</p>
+        </div>
+      </div>
+
+      <!-- CARD 9 -->
+      <div class="card col-md-4 mb-4" data-anno="1945" data-type="Fotografie">
+        <img src="https://www.ns-zwangsarbeit.de/fileadmin//dateien/imi/Befreiung_und_Heimkehr/IMI_6_26.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Reduci in arrivo alla stazione di Bolzano</h5>
+          <p class="card-text"><strong>Data:</strong> 1945<br>
+            <strong>Luogo:</strong> Bolzano<br>
+            <strong>Fonte:</strong> Ns Zwanggsarbeit Dokumentationszentrum<br>
+            <strong>Descrizione:</strong> Reduci in arrivo alla stazione di Bolzano</p>
+        </div>
+      </div>
+
+      <!-- CARD 10 -->
+      <div class="card col-md-4 mb-4" data-anno="1945" data-type="Fotografie">
+        <img src="https://www.ns-zwangsarbeit.de/fileadmin//dateien/imi/Befreiung_und_Heimkehr/IMI_6_29.jpg" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Infermiere della Croce Rossa interrogano i reduci</h5>
+          <p class="card-text"><strong>Data:</strong> 1945<br>
+            <strong>Luogo:</strong> Biellese, Vercellese e Valsesia<br>
+            <strong>Fonte:</strong> Ns Zwanggsarbeit Dokumentationszentrum<br>
+            <strong>Descrizione:</strong> Infermiere interrogano i reduci</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="mt-5 d-flex justify-content-between">
+      <a href="index.html" class="btn btn-outline-secondary">Torna alla Home</a>
+      <a href="#" class="btn btn-custom">Pagina successiva</a>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      const btn = document.getElementById('ordinaBtn');
+      btn.addEventListener('click', function () {
+        const container = document.getElementById('contenitore-cards');
+        const cards = Array.from(container.getElementsByClassName('card'));
+        const valore = document.getElementById('ordinamento').value;
+
+        if (valore === 'asc' || valore === 'desc') {
+          cards.sort((a, b) => {
+            const annoA = parseInt(a.getAttribute('data-anno')) || 0;
+            const annoB = parseInt(b.getAttribute('data-anno')) || 0;
+            return valore === 'asc' ? annoA - annoB : annoB - annoA;
+          });
+          cards.forEach(c => { 
+            c.style.display = 'block';
+            container.appendChild(c); 
+          });
+        } else {
+          cards.forEach(c => {
+            if (c.dataset.type === valore) {
+              c.style.display = 'block';
+            } else {
+              c.style.display = 'none';
+            }
+          });
+        }
+      });
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
