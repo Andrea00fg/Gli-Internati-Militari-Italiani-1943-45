@@ -79,15 +79,24 @@ a:active {
   overflow: hidden;
 }
 
+#hero-slider {
+  position: relative;
+  width: 100%;
+  height: 70vh; /* l’altezza che vuoi per lo slider */
+  overflow: hidden;
+}
+
 #hero-slider .slide {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 50%;
-  height: 50%;
-  background-size: cover;
-  background-position: center;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-size: contain; /* mostra immagine intera senza tagliarla */
+  background-repeat: no-repeat;
+  background-position: center center;
   opacity: 0;
+  transform: translate(-50%, -50%);
   transition: opacity 1s ease-in-out;
 }
 
@@ -95,6 +104,7 @@ a:active {
   opacity: 1;
   z-index: 1;
 }
+
 
    Mappa Leaflet
 
@@ -144,10 +154,5 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
-}
-
-header {
-  background-color: #8C7B5B;
-  color: white;
 }
 
