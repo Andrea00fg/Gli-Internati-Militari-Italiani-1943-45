@@ -136,17 +136,40 @@ a:active {
 
     <section class="mt-5">
   <h2>In primo piano</h2>
- <li class="nav-item"><a class="nav-link" href="storia.html">📚 Storia</a></li>
-<li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="esploraDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    🖼️📹 Esplora
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="esploraDropdown">
-    <li><a class="dropdown-item" href="Archivio_fotografico.html">🖼️ Archivio fotografico</a></li>
-    <li><a class="dropdown-item" href="Archivio_audiovisivo.html">📹 Archivio audiovisivo</a></li>
-  </ul>
-</li>
-<li class="nav-item"><a class="nav-link" href="Luoghi.html">🗺️ I luoghi</a></li>
+ <section class="container my-5">
+  <h2 class="text-center mb-4">📖 Esplora il sito</h2>
+  <div class="row g-4">
+    <div class="col-md-3 col-sm-6">
+      <div class="card text-center p-3 shadow-sm">
+        <div class="display-4">📚</div>
+        <h5 class="mt-3">Storia</h5>
+        <p>Scopri il contesto storico e le vicende degli Internati Militari Italiani durante la Seconda guerra mondiale.</p>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="card text-center p-3 shadow-sm">
+        <div class="display-4">🖼️</div>
+        <h5 class="mt-3">Archivio fotografico</h5>
+        <p>Una raccolta di immagini storiche che testimoniano la vita, il lavoro e la prigionia degli IMI.</p>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="card text-center p-3 shadow-sm">
+        <div class="display-4">📹</div>
+        <h5 class="mt-3">Archivio audiovisivo</h5>
+        <p>Filmati, interviste e materiali multimediali per rivivere le testimonianze degli internati.</p>
+      </div>
+    </div>
+    <div class="col-md-3 col-sm-6">
+      <div class="card text-center p-3 shadow-sm">
+        <div class="display-4">🗺️</div>
+        <h5 class="mt-3">Luoghi</h5>
+        <p>Esplora la mappa dei campi di prigionia e dei principali luoghi legati alla deportazione.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
     <section class="mt-4">
