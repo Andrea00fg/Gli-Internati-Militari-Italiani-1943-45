@@ -162,7 +162,7 @@ a:active {
 
     <!-- ARCHIVIO AUDIOVISIVO -->
     <div class="col-md-3 col-sm-6">
-      <a href="Archivio_audiovisivo.html" class="text-decoration-none text-dark">
+      <a href="#" class="text-decoration-none text-dark">
         <div class="card text-center p-3 shadow-sm h-100">
           <div class="display-4">📹</div>
           <h5 class="mt-3">Archivio audiovisivo</h5>
