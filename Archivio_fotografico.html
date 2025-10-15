@@ -172,21 +172,36 @@
     
 <script>
   document.addEventListener('DOMContentLoaded', function () {
-      const btn = document.getElementById('ordinaBtn');
-      btn.addEventListener('click', function () {
-        const container = document.getElementById('contenitore-cards');
-        const cards = Array.from(container.getElementsByClassName('card'));
-        const ordine = document.getElementById('ordinamento').value;
+  const btn = document.getElementById('ordinaBtn');
 
-        cards.sort((a,b) => {
-          const annoA = parseInt(a.getAttribute('data-anno')) || 0;
-          const annoB = parseInt(b.getAttribute('data-anno')) || 0;
-          return ordine === 'asc' ? annoA - annoB : annoB - annoA;
-        });
+  btn.addEventListener('click', function () {
+    const container = document.getElementById('contenitore-cards');
+    const cards = Array.from(container.getElementsByClassName('card'));
+    const valore = document.getElementById('ordinamento').value;
 
-        cards.forEach(c => container.appendChild(c));
+    if (valore === 'asc' || valore === 'desc') {
+      // Ordina per anno
+      cards.sort((a, b) => {
+        const annoA = parseInt(a.getAttribute('data-anno')) || 0;
+        const annoB = parseInt(b.getAttribute('data-anno')) || 0;
+        return valore === 'asc' ? annoA - annoB : annoB - annoA;
       });
-    });
+      cards.forEach(c => { 
+        c.style.display = 'block';
+        container.appendChild(c); 
+      });
+    } else {
+      // Filtra per categoria
+      cards.forEach(c => {
+        if (c.dataset.type === valore) {
+          c.style.display = 'block';
+        } else {
+          c.style.display = 'none';
+        }
+      });
+    }
+  });
+});
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
