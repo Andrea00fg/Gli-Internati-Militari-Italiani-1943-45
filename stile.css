@@ -140,14 +140,14 @@ a:active {
 .sidebar {
   background: #e0e0e0;
   padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+}
 
- /* Limita la dimensione delle immagini */
+/* Limita la dimensione delle immagini */
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-  border-radius: 10px;
-  margin-bottom: 2rem;
-}
