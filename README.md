@@ -134,39 +134,57 @@ a:active {
       </ul>
     </section>
 
- <section class="container my-5">
+<section class="container my-5">
   <h2 class="text-center mb-4">📖 Esplora il sito</h2>
   <div class="row g-4">
+
+    <!-- STORIA -->
     <div class="col-md-3 col-sm-6">
-      <div class="card text-center p-3 shadow-sm">
-        <div class="display-4">📚</div>
-        <h5 class="mt-3">Storia</h5>
-        <p>Scopri il contesto storico e le vicende degli Internati Militari Italiani durante la Seconda guerra mondiale.</p>
-      </div>
+      <a href="storia.html" class="text-decoration-none text-dark">
+        <div class="card text-center p-3 shadow-sm h-100">
+          <div class="display-4">📚</div>
+          <h5 class="mt-3">Storia</h5>
+          <p>Scopri il contesto storico e le vicende degli Internati Militari Italiani durante la Seconda guerra mondiale.</p>
+        </div>
+      </a>
     </div>
+
+    <!-- ARCHIVIO FOTOGRAFICO -->
     <div class="col-md-3 col-sm-6">
-      <div class="card text-center p-3 shadow-sm">
-        <div class="display-4">🖼️</div>
-        <h5 class="mt-3">Archivio fotografico</h5>
-        <p>Una raccolta di immagini storiche che testimoniano la vita, il lavoro e la prigionia degli IMI.</p>
-      </div>
+      <a href="Archivio_fotografico.html" class="text-decoration-none text-dark">
+        <div class="card text-center p-3 shadow-sm h-100">
+          <div class="display-4">🖼️</div>
+          <h5 class="mt-3">Archivio fotografico</h5>
+          <p>Una raccolta di immagini storiche che testimoniano la vita, il lavoro e la prigionia degli IMI.</p>
+        </div>
+      </a>
     </div>
+
+    <!-- ARCHIVIO AUDIOVISIVO -->
     <div class="col-md-3 col-sm-6">
-      <div class="card text-center p-3 shadow-sm">
-        <div class="display-4">📹</div>
-        <h5 class="mt-3">Archivio audiovisivo</h5>
-        <p>Filmati, interviste e materiali multimediali per rivivere le testimonianze degli internati.</p>
-      </div>
+      <a href="Archivio_audiovisivo.html" class="text-decoration-none text-dark">
+        <div class="card text-center p-3 shadow-sm h-100">
+          <div class="display-4">📹</div>
+          <h5 class="mt-3">Archivio audiovisivo</h5>
+          <p>Filmati, interviste e materiali multimediali per rivivere le testimonianze degli internati.</p>
+        </div>
+      </a>
     </div>
+
+    <!-- LUOGHI -->
     <div class="col-md-3 col-sm-6">
-      <div class="card text-center p-3 shadow-sm">
-        <div class="display-4">🗺️</div>
-        <h5 class="mt-3">Luoghi</h5>
-        <p>Esplora la mappa dei campi di prigionia e dei principali luoghi legati alla deportazione.</p>
-      </div>
+      <a href="Luoghi.html" class="text-decoration-none text-dark">
+        <div class="card text-center p-3 shadow-sm h-100">
+          <div class="display-4">🗺️</div>
+          <h5 class="mt-3">Luoghi</h5>
+          <p>Esplora la mappa dei campi di prigionia e dei principali luoghi legati alla deportazione.</p>
+        </div>
+      </a>
     </div>
+
   </div>
 </section>
+
 
 
 
@@ -174,7 +192,6 @@ a:active {
       <h2>Contatti e crediti</h2>
       <p>Progetto sviluppato per la prova finale del corso di Digital Humanities e Patrimonio culturale. A cura di Andrea Perrucci, 2025.</p>
     </section>
-  </main>
 
   <footer class="bg-light text-center py-3">
     <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45) - Licenza</p>
@@ -193,5 +210,3 @@ a:active {
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-</html>
