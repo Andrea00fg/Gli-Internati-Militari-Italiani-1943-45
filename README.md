@@ -136,27 +136,18 @@ a:active {
 
     <section class="mt-5">
   <h2>In primo piano</h2>
-  <div class="row text-center">
-    <div class="col-md-4 mb-4">
-      <a href="Archivio_fotografico.html">
-        <img src="https://www.analisiqualitativa.com/magma/1601/img/ciccarello04.jpg" class="img-fluid rounded shadow" alt="Lettera da un campo">
-      </a>
-      <p class="mt-2"><strong>Lettera da un campo</strong><br>Una testimonianza scritta da un internato nel 1944.</p>
-    </div>
-    <div class="col-md-4 mb-4">
-      <a href="Archivio_fotografico.html">
-        <img src="https://www.analisiqualitativa.com/magma/1601/img/ciccarello02.jpg" class="img-fluid rounded shadow" alt="Cartolina dal Comando tedesco">
-      </a>
-      <p class="mt-2"><strong>Cartolina dal Comando tedesco</strong><br>La cartolina spiega ai parenti degli IMI di scrivere sui moduli allegati.</p>
-    </div>
-    <div class="col-md-4 mb-4">
-      <a href="Archivio_fotografico.html">
-        <img src="https://www.ns-zwangsarbeit.de/fileadmin/_processed_/0/3/csm_IMI_4_2_3_33_b862664432.jpg" class="img-fluid rounded shadow" alt="Imi a lavoro">
-      </a>
-      <p class="mt-2"><strong>Imi a lavoro</strong><br>Internati militari recuperano le salme dopo il grande bombardamento di Kassel.</p>
-    </div>
-  </div>
-</section>
+ <li class="nav-item"><a class="nav-link" href="storia.html">📚 Storia</a></li>
+<li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" id="esploraDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    🖼️📹 Esplora
+  </a>
+  <ul class="dropdown-menu" aria-labelledby="esploraDropdown">
+    <li><a class="dropdown-item" href="Archivio_fotografico.html">🖼️ Archivio fotografico</a></li>
+    <li><a class="dropdown-item" href="Archivio_audiovisivo.html">📹 Archivio audiovisivo</a></li>
+  </ul>
+</li>
+<li class="nav-item"><a class="nav-link" href="Luoghi.html">🗺️ I luoghi</a></li>
+
 
     <section class="mt-4">
       <h2>Contatti e crediti</h2>
