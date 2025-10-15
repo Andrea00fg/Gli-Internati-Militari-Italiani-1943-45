@@ -1,8 +1,12 @@
-  <style>
-  body {
+ 
+   Corpo, testi e link
+
+body {
   background-color: #f5f2e7;
   color: #212529;
   font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 h1, h2, h3, h4 {
@@ -17,159 +21,33 @@ a {
 a:hover {
   color: #5a0000;
 }
+
 a:visited,
 a:active {
   color: #000000;
 }
 
+
+   Navbar e footer
+
 .navbar, footer {
-  background-color: #e0e0e0;
-}
-    
-
-.btn-outline-secondary {
-  border-color: #8b0000;
-  color: #8b0000;
+  background-color: #e0e0e0 !important;
 }
 
-.btn-outline-secondary:hover {
-  background-color: #8b0000;
-  color: white;
-}
-    </style>
-
-  <style>
-    #hero-slider {
-      position: relative;
-      height: 70vh;
-      overflow: hidden;
-    }
-
-    #hero-slider .slide {
-      position: absolute;
-      top: 0; left: 0;
-      width: 50%;
-      height: 50%;
-      background-size: cover;
-      background-position: center;
-      opacity: 0;
-      transition: opacity 1s ease-in-out;
-    }
-
-    #hero-slider .slide.active {
-      opacity: 1;
-      z-index: 1;
-    }
-  </style>
-
-
- <style>
-    body {
-      background-color: #f5f2e7;
-      font-family: 'Segoe UI', sans-serif;
-    }
-    .card {
-      background: #fff;
-      border: 1px solid #ddd;
-      border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      margin-bottom: 2rem;
-    }
-    .card img {
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-    }
-    .sidebar {
-      background: #e0e0e0;
-      padding: 1rem;
-      border-radius: 10px;
-      margin-bottom: 2rem;
-    }
-    .btn-custom {
-      border-color: #8b0000;
-      color: #8b0000;
-    }
-    .btn-custom:hover {
-      background-color: #8b0000;
-      color: #fff;
-    }
-  </style>
-
-
-<style>
-    body {
-      background-color: #f5f2e7;
-      color: #212529;
-      font-family: 'Segoe UI', sans-serif;
-    }
-
-    h1, h2 {
-      color: #2c3e50;
-    }
-
-    a {
-      color: #8b0000;
-      text-decoration: underline;
-    }
-
-    a:hover {
-      color: #5a0000;
-    }
-
-    .navbar, footer {
-      background-color: #e0e0e0;
-    }
-
-    .btn-outline-secondary {
-      border-color: #8b0000;
-      color: #8b0000;
-    }
-
-    .btn-outline-secondary:hover {
-      background-color: #8b0000;
-      color: white;
-    }
-
-    #map {
-      height: 600px;
-      width: 100%;
-      margin-top: 2rem;
-    }
-
-    .legend {
-      background: white;
-      padding: 10px;
-      line-height: 1.5;
-      font-size: 14px;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.2);
-    }
-  </style>
-
-
-  <style>
-  body {
-  background-color: #f5f2e7;
+.navbar .nav-link {
   color: #212529;
-  font-family: 'Segoe UI', sans-serif;
 }
 
-h1, h2, h3, h4 {
-  color: #2c3e50;
+.navbar .nav-link.active {
+  font-weight: bold;
 }
 
-a {
+.navbar .nav-link:hover {
   color: #8b0000;
-  text-decoration: underline;
 }
 
-a:hover {
-  color: #5a0000;
-}
 
-.navbar, footer {
-  background-color: #e0e0e0;
-}
+   Bottoni
 
 .btn-outline-secondary {
   border-color: #8b0000;
@@ -180,162 +58,83 @@ a:hover {
   background-color: #8b0000;
   color: white;
 }
-    </style>
 
-  <style>
-    #hero-slider {
-      position: relative;
-      height: 70vh;
-      overflow: hidden;
-    }
+.btn-custom {
+  border-color: #8b0000;
+  color: #8b0000;
+}
 
- #hero-slider {
+.btn-custom:hover {
+  background-color: #8b0000;
+  color: #fff;
+}
+
+
+   Slider
+
+#hero-slider {
   position: relative;
   height: 70vh;
   overflow: hidden;
 }
 
-#hero-slider img {
-  max-width: 50%;
-  height: auto;
+#hero-slider .slide {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
   opacity: 0;
   transition: opacity 1s ease-in-out;
-  z-index: 0;
 }
-
-#hero-slider img.active {
-  opacity: 1;
-  z-index: 1;
-}
-
 
 #hero-slider .slide.active {
   opacity: 1;
   z-index: 1;
 }
 
-  </style>
 
+   Mappa Leaflet
 
- <style>
-  body {
-  background-color: #f5f2e7;
-  color: #212529;
-  font-family: 'Segoe UI', sans-serif;
+#map {
+  height: 600px;
+  width: 100%;
+  margin-top: 2rem;
 }
 
-h1, h2, h3, h4 {
-  color: #2c3e50;
+.legend {
+  background: white;
+  padding: 10px;
+  line-height: 1.5;
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 
-a {
-  color: #8b0000;
-  text-decoration: underline;
+
+   Card
+
+.card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 2rem;
 }
 
-a:hover {
-  color: #5a0000;
+.card img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
-.navbar, footer {
-  background-color: #e0e0e0;
+
+   Sidebar e altri elementi
+
+.sidebar {
+  background: #e0e0e0;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
 }
-
-.btn-outline-secondary {
-  border-color: #8b0000;
-  color: #8b0000;
-}
-
-.btn-outline-secondary:hover {
-  background-color: #8b0000;
-  color: white;
-}
-    </style>
-
-  <style>
-    #hero-slider {
-      position: relative;
-      height: 70vh;
-      overflow: hidden;
-    }
-
-    #hero-slider .slide {
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-position: center;
-      opacity: 0;
-      transition: opacity 1s ease-in-out;
-    }
-
-    #hero-slider .slide.active {
-      opacity: 1;
-      z-index: 1;
-    }
-  </style>
-
-
-  <style>
-  body {
-  background-color: #f5f2e7;
-  color: #212529;
-  font-family: 'Segoe UI', sans-serif;
-}
-
-h1, h2, h3, h4 {
-  color: #2c3e50;
-}
-
-a {
-  color: #8b0000;
-  text-decoration: underline;
-}
-
-a:hover {
-  color: #5a0000;
-}
-
-.navbar, footer {
-  background-color: #e0e0e0;
-}
-
-.btn-outline-secondary {
-  border-color: #8b0000;
-  color: #8b0000;
-}
-
-.btn-outline-secondary:hover {
-  background-color: #8b0000;
-  color: white;
-}
-    </style>
-
-  <style>
-    #hero-slider {
-      position: relative;
-      height: 70vh;
-      overflow: hidden;
-    }
-
-    #hero-slider .slide {
-      position: absolute;
-      top: 0; left: 0;
-      width: 100%;
-      height: 100%;
-      background-size: cover;
-      background-position: center;
-      opacity: 0;
-      transition: opacity 1s ease-in-out;
-    }
-
-    #hero-slider .slide.active {
-      opacity: 1;
-      z-index: 1;
-    }
-  </style>
