@@ -1,5 +1,6 @@
- 
+/* =========================
    Corpo, testi e link
+   ========================= */
 
 body {
   background-color: #f5f2e7;
@@ -28,7 +29,9 @@ a:active {
 }
 
 
+/* =========================
    Navbar e footer
+   ========================= */
 
 .navbar, footer {
   background-color: #e0e0e0 !important;
@@ -47,7 +50,9 @@ a:active {
 }
 
 
+/* =========================
    Bottoni
+   ========================= */
 
 .btn-outline-secondary {
   border-color: #8b0000;
@@ -70,33 +75,27 @@ a:active {
 }
 
 
+/* =========================
    Slider
+   ========================= */
 
 #hero-slider {
   position: relative;
   width: 100%;
-  height: 70vh;
-  overflow: hidden;
-}
-
-#hero-slider {
-  position: relative;
-  width: 100%;
-  height: 70vh; /* l’altezza che vuoi per lo slider */
+  height: 70vh; /* Altezza visibile */
   overflow: hidden;
 }
 
 #hero-slider .slide {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  background-size: contain; /* mostra immagine intera senza tagliarla */
+  background-size: contain; /* Mostra tutta l'immagine */
   background-repeat: no-repeat;
   background-position: center center;
   opacity: 0;
-  transform: translate(-50%, -50%);
   transition: opacity 1s ease-in-out;
 }
 
@@ -106,7 +105,9 @@ a:active {
 }
 
 
+/* =========================
    Mappa Leaflet
+   ========================= */
 
 #map {
   height: 600px;
@@ -124,7 +125,9 @@ a:active {
 }
 
 
+/* =========================
    Card
+   ========================= */
 
 .card {
   background: #fff;
@@ -140,7 +143,9 @@ a:active {
 }
 
 
+/* =========================
    Sidebar e altri elementi
+   ========================= */
 
 .sidebar {
   background: #e0e0e0;
@@ -155,4 +160,5 @@ img {
   height: auto;
   display: block;
 }
+
 
