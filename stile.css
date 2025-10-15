@@ -94,3 +94,54 @@ a:active {
       color: #fff;
     }
   </style>
+
+
+<style>
+    body {
+      background-color: #f5f2e7;
+      color: #212529;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    a {
+      color: #8b0000;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: #5a0000;
+    }
+
+    .navbar, footer {
+      background-color: #e0e0e0;
+    }
+
+    .btn-outline-secondary {
+      border-color: #8b0000;
+      color: #8b0000;
+    }
+
+    .btn-outline-secondary:hover {
+      background-color: #8b0000;
+      color: white;
+    }
+
+    #map {
+      height: 600px;
+      width: 100%;
+      margin-top: 2rem;
+    }
+
+    .legend {
+      background: white;
+      padding: 10px;
+      line-height: 1.5;
+      font-size: 14px;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.2);
+    }
+  </style>
