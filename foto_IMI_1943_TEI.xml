@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>IMI al lavoro dopo il bombardamento</title>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>Archivio Digital Humanities</publisher>
+        <availability>Pubblico</availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>Fonte: https://www.ns-zwangsarbeit.de/</bibl>
+        <idno>item_IMI_1943.html</idno>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <figure>
+        <graphic url="https://www.ns-zwangsarbeit.de/fileadmin/_processed_/0/3/csm_IMI_4_2_3_33_b862664432.jpg"/>
+        <figDesc>
+          <p><date>1943</date> - <placeName>Kassel, Germania</placeName> - Fotografia che documenta il lavoro degli Internati Militari Italiani (IMI) durante il recupero delle salme dopo il bombardamento.</p>
+          <p>Collegamento alla scheda HTML: <ref target="item_IMI_1943.html">IMI al lavoro dopo il bombardamento</ref></p>
+        </figDesc>
+      </figure>
+    </body>
+  </text>
+</TEI>
