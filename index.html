@@ -1,149 +1,116 @@
 <!DOCTYPE html>
 <html lang="it">
- <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
 
   <meta name="DC.title" content="Gli internati militari italiani (1943-45)">
-  <meta name="DC.creator" content="[Andrea Perrucci]">
+  <meta name="DC.creator" content="Andrea Perrucci">
   <meta name="DC.subject" content="Internati militari italiani, Seconda guerra mondiale, Lager, prigionia">
   <meta name="DC.description" content="Una raccolta digitale di testimonianze e documenti sugli internati militari italiani nei lager tedeschi, 1943-1945.">
   <meta name="DC.language" content="it">
   <meta name="DC.date" content="2025-05-15">
   <meta name="DC.rights" content="CC BY-SA 4.0">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="stile.css">
-
+  <link rel="stylesheet" href="css/stile.css">
+  <title>Gli internati militari italiani (1943-45)</title>
 </head>
 <body>
- <header class="text-white py-4" style="background-color: #8C7B5B;">
-    <div class="container">
-      <h1 class="mb-0">Gli internati militari italiani (1943-45)</h1>
+  <header class="site-header">
+    <div class="wrap">
+      <h1>Gli internati militari italiani (1943-45)</h1>
       <p class="lead">Una raccolta digitale di fonti e testimonianze</p>
     </div>
   </header>
 
- <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <div class="container">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="storia.html">Storia</a></li>
-        <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" id="esploraDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-    Esplora
-  </a>
-  <ul class="dropdown-menu" aria-labelledby="esploraDropdown">
-    <li><a class="dropdown-item" href="Archivio_fotografico.html">Archivio fotografico</a></li>
-    <li><a class="dropdown-item" href="#">Archivio audiovisivo</a></li>
-  </ul>
-</li>
-        <li class="nav-item"><a class="nav-link" href="Luoghi.html">I luoghi</a></li>
+  <nav class="main-nav" aria-label="Principale">
+    <div class="wrap nav-inner">
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">☰</button>
+      <ul id="navMenu" class="nav-list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="storia.html">Storia</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn" id="exploreBtn" aria-haspopup="true" aria-expanded="false">Esplora ▾</a>
+          <ul class="dropdown-menu" id="exploreMenu" aria-label="Esplora menu">
+            <li><a href="Archivio_fotografico.html">Archivio fotografico</a></li>
+            <li><a href="Archivio_audiovisivo.html">Archivio audiovisivo</a></li>
+          </ul>
+        </li>
+        <li><a href="Luoghi.html">I luoghi</a></li>
       </ul>
     </div>
-  </div>
-</nav>
+  </nav>
 
- 
-  <div id="hero-slider">
-  <div class="slide active" style="background-image: url('https://www.ns-zwangsarbeit.de/fileadmin/dateien/imi/Transport/10_Sept_43_Ital_Internierte_treffen_im_Lager_ein.jpg');"></div>
-  <div class="slide" style="background-image: url('https://www.ns-zwangsarbeit.de/fileadmin/_processed_/6/3/csm_IMI_2B_7_4e2d248642.png');"></div>
-</div>
+  <section id="hero-slider" class="hero">
+    <div class="slide active" style="background-image:url('https://www.ns-zwangsarbeit.de/fileadmin/dateien/imi/Transport/10_Sept_43_Ital_Internierte_treffen_im_Lager_ein.jpg')"></div>
+    <div class="slide" style="background-image:url('https://www.ns-zwangsarbeit.de/fileadmin/_processed_/6/3/csm_IMI_2B_7_4e2d248642.png')"></div>
+  </section>
 
-  <main class="container my-5">
+  <main class="wrap main">
     <section>
       <h2>Il progetto</h2>
       <p>Questa raccolta digitale nasce per documentare e valorizzare le esperienze degli internati militari italiani (IMI) nei lager tedeschi dopo l'armistizio dell'8 settembre 1943. Attraverso documenti, fotografie, lettere, diari e testimonianze orali, il progetto vuole restituire una voce a chi visse questa tragica pagina della storia italiana.</p>
     </section>
 
-    <section class="mt-4">
+    <section>
       <h2>Obiettivi</h2>
-      <ul class="list-unstyled">
-        <li>– Raccogliere fonti primarie e secondarie sugli IMI</li>
-        <li>– Offrire un'esperienza di consultazione accessibile e navigabile</li>
-        <li>– Integrare strumenti digitali per l'analisi e la visualizzazione</li>
-        <li>– Promuovere la memoria e la consapevolezza storica</li>
+      <ul class="bulleted">
+        <li>Raccogliere fonti primarie e secondarie sugli IMI</li>
+        <li>Offrire un'esperienza di consultazione accessibile e navigabile</li>
+        <li>Integrare strumenti digitali per l'analisi e la visualizzazione</li>
+        <li>Promuovere la memoria e la consapevolezza storica</li>
       </ul>
     </section>
 
-<section class="container my-5">
-  <h2 class="text-center mb-4">📖 Esplora il sito</h2>
-  <div class="row g-4">
+    <section class="featured">
+      <h2>In primo piano</h2>
+      <div class="grid-4">
+        <a class="card-link" href="Archivio_fotografico.html">
+          <article class="card">
+            <div class="emoji">📚</div>
+            <h3>Storia</h3>
+            <p>Contesto storico e vicende degli IMI.</p>
+          </article>
+        </a>
 
-    <!-- STORIA -->
-    <div class="col-md-3 col-sm-6">
-      <a href="storia.html" class="text-decoration-none text-dark">
-        <div class="card text-center p-3 shadow-sm h-100">
-          <div class="display-4">📚</div>
-          <h5 class="mt-3">Storia</h5>
-          <p>Scopri il contesto storico e le vicende degli Internati Militari Italiani durante la Seconda guerra mondiale.</p>
-        </div>
-      </a>
-    </div>
+        <a class="card-link" href="Archivio_fotografico.html">
+          <article class="card">
+            <div class="emoji">🖼️</div>
+            <h3>Archivio fotografico</h3>
+            <p>Immagini storiche della prigionia e del lavoro.</p>
+          </article>
+        </a>
 
-    <!-- ARCHIVIO FOTOGRAFICO -->
-    <div class="col-md-3 col-sm-6">
-      <a href="Archivio_fotografico.html" class="text-decoration-none text-dark">
-        <div class="card text-center p-3 shadow-sm h-100">
-          <div class="display-4">🖼️</div>
-          <h5 class="mt-3">Archivio fotografico</h5>
-          <p>Una raccolta di immagini storiche che testimoniano la vita, il lavoro e la prigionia degli IMI.</p>
-        </div>
-      </a>
-    </div>
+        <a class="card-link" href="#" aria-disabled="true">
+          <article class="card">
+            <div class="emoji">📹</div>
+            <h3>Archivio audiovisivo</h3>
+            <p>Filmati e interviste (in sviluppo).</p>
+          </article>
+        </a>
 
-    <!-- ARCHIVIO AUDIOVISIVO -->
-    <div class="col-md-3 col-sm-6">
-      <a href="#" class="text-decoration-none text-dark">
-        <div class="card text-center p-3 shadow-sm h-100">
-          <div class="display-4">📹</div>
-          <h5 class="mt-3">Archivio audiovisivo</h5>
-          <p>Filmati, interviste e materiali multimediali per rivivere le testimonianze degli internati.</p>
-        </div>
-      </a>
-    </div>
+        <a class="card-link" href="Luoghi.html">
+          <article class="card">
+            <div class="emoji">🗺️</div>
+            <h3>I luoghi</h3>
+            <p>Mappa interattiva dei campi e dei luoghi rilevanti.</p>
+          </article>
+        </a>
+      </div>
+    </section>
 
-    <!-- LUOGHI -->
-    <div class="col-md-3 col-sm-6">
-      <a href="Luoghi.html" class="text-decoration-none text-dark">
-        <div class="card text-center p-3 shadow-sm h-100">
-          <div class="display-4">🗺️</div>
-          <h5 class="mt-3">Luoghi</h5>
-          <p>Esplora la mappa dei campi di prigionia e dei principali luoghi legati alla deportazione.</p>
-        </div>
-      </a>
-    </div>
-
-  </div>
-</section>
-
-
-
-
-    <section class="mt-4">
+    <section>
       <h2>Contatti e crediti</h2>
       <p>Progetto sviluppato per la prova finale del corso di Digital Humanities e Patrimonio culturale. A cura di Andrea Perrucci, 2025.</p>
     </section>
-
   </main>
- <footer class="bg-light text-center py-3">
-    <p class="mb-0">&copy; 2025 - Gli internati militari italiani (1943-45) - Licenza</p>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2025 - Gli internati militari italiani (1943-45) - CC BY-SA 4.0</p>
+    </div>
   </footer>
 
-  <!-- Slider script -->
-  <script>
-    const slides = document.querySelectorAll('#hero-slider .slide');
-    let currentSlide = 0;
-
-    setInterval(() => {
-      slides[currentSlide].classList.remove('active');
-      currentSlide = (currentSlide + 1) % slides.length;
-      slides[currentSlide].classList.add('active');
-    }, 5000);
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
