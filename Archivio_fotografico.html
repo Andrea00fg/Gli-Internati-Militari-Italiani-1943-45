@@ -36,19 +36,31 @@
     </div>
   </nav>
 
-  <div class="container my-4">
-    <div class="d-flex mb-3">
-      <h5 class="me-3 my-auto">Filtra per:</h5>
-      <select class="form-select me-2" id="ordinamento">
-        <option value="asc">Data (1943 → 1945)</option>
-        <option value="desc">Data (1945 → 1943)</option>
-        <option value="cartoline">Cartoline</option>
-        <option value="lettere">Lettere</option>
-        <option value="fotografie">Fotografie</option>
-        <option value="disegno">Disegno</option>
+ <div class="container my-4"> 
+  <div class="card shadow-sm p-3">
+    <div class="d-flex flex-wrap align-items-center gap-3">
+
+      <span class="h6 mb-0 text-secondary fw-bold">
+        🔎 Filtra gli elementi:
+      </span>
+
+      <select class="form-select w-auto" id="ordinamento">
+        <option value="asc">📅 Data (1943 → 1945)</option>
+        <option value="desc">📅 Data (1945 → 1943)</option>
+        <option value="cartoline">💌 Cartoline</option>
+        <option value="lettere">✉️ Lettere</option>
+        <option value="fotografie">🖼️ Fotografie</option>
+        <option value="disegno">✏️ Disegno</option>
       </select>
-      <button id="ordinaBtn" class="btn btn-primary">Applica</button>
+
+      <button id="ordinaBtn" class="btn btn-dark px-4">
+        Applica
+      </button>
+
     </div>
+  </div>
+</div>
+
 
     <div class="row" id="contenitore-cards">
       <!-- CARD 1 -->
