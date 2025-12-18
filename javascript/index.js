@@ -1,4 +1,4 @@
-<script>
+
   const slides = document.querySelectorAll('#hero-slider .slide');
   let currentSlide = 0;
 
@@ -7,4 +7,3 @@
     currentSlide = (currentSlide + 1) % slides.length;
     slides[currentSlide].classList.add('active');
   }, 5000);
-</script>
