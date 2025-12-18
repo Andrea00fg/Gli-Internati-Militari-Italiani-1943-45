@@ -1,4 +1,4 @@
-<script>
+
   document.addEventListener('DOMContentLoaded', function () {
     const btn = document.getElementById('ordinaBtn');
 
@@ -28,4 +28,3 @@
       }
     });
   });
-</script>
