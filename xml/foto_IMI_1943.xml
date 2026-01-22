@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="stile.css"?>
+
 <metadata
   xmlns:dc="http://purl.org/dc/elements/1.1/"
   xmlns:dcterms="http://purl.org/dc/terms/">
@@ -7,12 +9,15 @@
   <dc:date>1943</dc:date>
   <dcterms:spatial>Kassel, Germania</dcterms:spatial>
   <dc:source>https://www.ns-zwangsarbeit.de/</dc:source>
+
   <dc:description>
     Fotografia che documenta il lavoro degli Internati Militari Italiani (IMI)
     durante il recupero delle salme dopo il bombardamento su Kassel nel 1943.
   </dc:description>
+
   <dc:type>Image</dc:type>
   <dc:identifier>item_IMI_1943.html</dc:identifier>
+
   <dc:relation>
     https://www.ns-zwangsarbeit.de/fileadmin/_processed_/0/3/csm_IMI_4_2_3_33_b862664432.jpg
   </dc:relation>
