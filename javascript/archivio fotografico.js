@@ -4,25 +4,21 @@ document.addEventListener('DOMContentLoaded', () => {
   const select = document.getElementById('ordinamento');
   const container = document.getElementById('contenitore-cards');
 
-  if (!btn || !select || !container) {
-    console.error("Elementi non trovati");
-    return;
-  }
+  console.log("JS caricato");
 
   btn.addEventListener('click', () => {
 
     const valore = select.value;
     const cards = Array.from(container.querySelectorAll('[data-anno]'));
 
-    console.log("Filtro:", valore);
-    console.log("Cards trovate:", cards.length);
+    console.log("Click — cards trovate:", cards.length);
 
     if (valore === "asc" || valore === "desc") {
 
       cards.sort((a,b) => {
         const A = parseInt(a.dataset.anno) || 0;
         const B = parseInt(b.dataset.anno) || 0;
-        return valore === "asc" ? A-B : B-A;
+        return valore === "asc" ? A - B : B - A;
       });
 
       cards.forEach(c => {
