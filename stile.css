@@ -3,29 +3,29 @@
    ========================= */
 
 body {
-  background-color: #f5f2e7;
-  color: #212529;
-  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f2e7; /*colore di sfondo beige chiaro*/
+  color: #212529; /*colore del testo scuro, quasi nero*/
+  font-family: 'Segoe UI', sans-serif; /*font moderno e leggibile*/
   margin: 0;
-  padding: 0;
+  padding: 0; /*spazio interno*/
 }
 
 h1, h2, h3, h4 {
-  color: #2c3e50;
+  color: #2c3e50; /*colore è blu scuro*/ 
 }
 
 a {
-  color: #8b0000;
+  color: #8b0000; /*colore è bordeaux*/
   text-decoration: underline;
 }
 
 a:hover {
-  color: #5a0000;
+  color: #5a0000; /*colore è rosso più scuro*/
 }
 
 a:visited,
 a:active {
-  color: #000000;
+  color: #000000; /*colore è nero*/
 }
 
 
@@ -34,11 +34,11 @@ a:active {
    ========================= */
 
 .navbar, footer {
-  background-color: #e0e0e0 !important;
+  background-color: #e0e0e0 !important; /*colore è grigio scuro*/
 }
 
 .navbar .nav-link {
-  color: #212529;
+  color: #212529; /colore è grigio scuro leggibile*/
 }
 
 .navbar .nav-link.active {
@@ -46,7 +46,7 @@ a:active {
 }
 
 .navbar .nav-link:hover {
-  color: #8b0000;
+  color: #8b0000; /*colore è rosso scuro*/
 }
 
 
@@ -55,7 +55,7 @@ a:active {
    ========================= */
 
 .btn-outline-secondary {
-  border-color: #8b0000;
+  border-color: #8b0000; /*colore sempre rosso scuro*/
   color: #8b0000;
 }
 
