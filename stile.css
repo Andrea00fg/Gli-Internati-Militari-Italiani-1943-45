@@ -82,17 +82,17 @@ a:active {
 #hero-slider {
   position: relative;
   width: 100%;
-  height: 70vh; /* Altezza visibile */
-  overflow: hidden;
+  height: 70vh; /*Altezza visibile*/
+  overflow: hidden; /*nascoste le parti fuori dallo slider*/
 }
 
 #hero-slider .slide {
-  position: absolute;
+  position: absolute; /*si sovrappongono le slide*/
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-size: contain; /* Mostra tutta l'immagine */
+  background-size: contain; /*Mostra tutta l'immagine*/
   background-repeat: no-repeat;
   background-position: center center;
   opacity: 0;
